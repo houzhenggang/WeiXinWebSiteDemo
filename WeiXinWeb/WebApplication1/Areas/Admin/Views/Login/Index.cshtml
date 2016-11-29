@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>后台登录</title>
+    <link href="~/Content/didiadmin/login/css/login.css" type="text/css" rel="stylesheet">
+    <style>
+        .validation-summary-errors { font-weight: bold; color: #f00; } 
+    </style>
+</head>
+<body>
+
+    <div class="login">
+        <div class="message">管理登录</div>
+        <div id="darkbannerwrap"></div>
+
+
+        <form method="post" action="/Admin/Login/LoginOn">
+            @Html.AntiForgeryToken()
+            <input name="UserName" placeholder="用户名" required="" type="text">
+            <hr class="hr15">
+            <input name="PassWord" placeholder="密码" required="" type="password">
+            <hr class="hr15">
+            <input value="登录" style="width: 100%;" type="submit">
+            @*<button lay-submit lay-filter="loginSubmit">提交</button>*@
+            <hr class="hr20">
+            <!-- 帮助 <a onClick="alert('请联系管理员')">忘记密码</a>type="submit" -->
+             <p style="color: red">@Html.ValidationSummary()</p>
+        </form>
+
+
+    </div>
+
+    <div class="copyright">© 2016 by  <a href="#" target="_blank">版权</a></div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</body>
+</html>

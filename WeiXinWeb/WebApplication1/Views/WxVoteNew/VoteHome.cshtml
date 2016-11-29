@@ -1,0 +1,90 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutNew.cshtml";
+    ViewBag.Title = "投票";
+    var openId = ViewBag.OpenId;
+
+}
+@model  List<WxModel.DtoModel.VoteDeptDto> 
+<div id="audio_btn" class="video_exist off play_yinfu" style="display: block;">
+    <div id="yinfu" class="rotate"></div>
+    <audio loop src="~/content/toupiao/music/bg_2.mp3" id="media" autoplay preload="preload"></audio>
+</div>
+
+<div id="content_title1" class="fluid clearfix">
+    <div class="content_title">
+        活动介绍
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div id="huodongjieshao_wenzi">
+    <i class="title">奖项设置</i><br/>
+    <i class="title02">总裁特别奖团队</i>（1大众门店+大众1部门+房网1部门）<br />
+    3个团队全体成员与袁总共进晚餐，并由袁总在2016年年度大会亲自颁发水晶奖杯；<br />
+    <i class="title02">人气门店奖</i><br />
+    12家门店在2016年年度大会颁发人气门店奖锦旗；<br />
+    <i class="title">投票时间</i><br />
+    2016年12月1日~2016年12月8日<br />
+</div>
+<div id="title_fenlei">
+    <div class="content">
+        <a href="javascript:void(0);"><img src="~/content/toupiao/images/大众.png"></a>
+    </div>
+</div>
+<div id="title_paiming">
+    <div class="content">
+        <a href="/WxVoteNew/DeptRank?deptId=30"><img src="~/content/toupiao/images/排名.png"></a>
+    </div>
+</div>
+<div id="title_fenlei">
+    <div>
+        @*@{
+            foreach (var item in Model)
+            {
+                <a href="/WxVoteNew/VoteContent?deptId=@(item.Id)&openId=@(openId)"><img src="@(item.CoverImg)"></a>
+            }
+        }*@
+
+        <a href="/WxVoteNew/VoteContent?deptId=31&openId=@(openId)"><img src="~/content/toupiao/images/dazhong01.png"></a>
+        <a href="/WxVoteNew/VoteContent?deptId=34&openId=@(openId)"><img src="~/content/toupiao/images/dazhong02.png"></a>
+        <a href="/WxVoteNew/VoteContent?deptId=33&openId=@(openId)"><img src="~/content/toupiao/images/dazhong03.png"></a>
+        <a href="/WxVoteNew/VoteContent?deptId=35&openId=@(openId)"><img src="~/content/toupiao/images/dazhong04.png"></a>
+        <a href="/WxVoteNew/VoteContent?deptId=36&openId=@(openId)"><img src="~/content/toupiao/images/dazhong05.png"></a>
+        <a href="/WxVoteNew/VoteContent?deptId=37&openId=@(openId)"><img src="~/content/toupiao/images/dazhong06.png"></a>
+        <a href="/WxVoteNew/VoteContent?deptId=38&openId=@(openId)"><img src="~/content/toupiao/images/dazhong07.png"></a>
+    </div>
+</div>
+<div id="title_fenlei">
+    <div class="content">
+        <a href="#"><img src="~/content/toupiao/images/大众01.png"></a>
+    </div>
+</div>
+<div id="title_paiming">
+    <div class="content">
+        <a href="/WxVoteNew/DeptRank?deptId=29"><img src="~/content/toupiao/images/排名.png"></a>
+    </div>
+</div>
+<div id="title_fenlei">
+    <div>
+        <a href="/WxVoteNew/VoteContent?deptId=29&openId=@(openId)"><img src="~/content/toupiao/images/zhineng.png"></a>
+    </div>
+</div>
+<div id="title_fenlei">
+    <div class="content">
+        <a href="javascript:void(0);"><img src="~/content/toupiao/images/fwbt.png"></a>
+    </div>
+</div>
+<div id="title_paiming">
+    <div class="content">
+        <a href="/WxVoteNew/DeptRank?deptId=28"><img src="~/content/toupiao/images/排名.png"></a>
+    </div>
+</div>
+<div id="title_fenlei">
+    <div>
+        <a href="/WxVoteNew/VoteContent?deptId=28&openId=@(openId)"><img src="~/content/toupiao/images/fangwang.png"></a>
+    </div>
+</div>
+
+
+<div class="clearfix" style="height:2em;"></div>

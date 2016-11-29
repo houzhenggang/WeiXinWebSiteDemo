@@ -1,0 +1,367 @@
+﻿
+@{
+    ViewBag.Title = "部门管理";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="listDiv">
+    <blockquote class="layui-elem-quote">
+        <a href="javascript:void(0);" class="layui-btn layui-btn-small" onclick="addDeptShow()">
+            <i class="layui-icon">&#xe608;</i> 添加信息
+        </a>
+
+        <a href="javascript:;" class="layui-btn layui-btn-small" id="search">
+            <i class="layui-icon">&#xe615;</i> 搜索
+        </a>
+    </blockquote>
+    <fieldset class="layui-elem-field">
+        <legend>数据列表</legend>
+        <div class="layui-field-box">
+            <table class="site-table">
+                <thead>
+                    <tr>
+                        <th>名称</th>
+
+                        <th>说明</th>
+                        <th>创建时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="dataView"></tbody>
+            </table>
+
+        </div>
+    </fieldset>
+    <div class="admin-table-page">
+        <div id="page" style="padding-left: 20px;">
+        </div>
+    </div>
+</div>
+<div id="formDiv" style="display: none;">
+    <form id="mainForm" class="layui-form layui-form-pane">
+        <div class="layui-form-item">
+            <label class="layui-form-label">所属事业部</label>
+            <div class="layui-input-block" style="width: 300px;">
+                @Html.DropDownList("GroupId", ViewBag.ParentDept as SelectList, null, new {@lay_filter = "GroupId"})
+                <p></p>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">所属片区</label>
+            <div id="ParentDiv" class="layui-input-block" style="width: 300px;">
+                <select id="ParentId" name="ParentId">
+                    <option value='0'>请选择</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">门店名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="DelptName" required lay-verify="required" autocomplete="off" placeholder="请输入标题" class="layui-input" style="width: 300px;"><br/>
+                <p></p>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">封面图片</label>
+            <div class="layui-input-block">
+                <div class="layui-input-block">
+                    @*<img class="img-cover" id="imgTitle" src="~/Content/didiadmin/sc_pic.jpg" onclick="addTitleImg(this)" width="160" height="160" />*@
+                    @*<input type="file" name="imgFile" id="imgFile" onchange="uploadImgChange(this)" style="display: none">*@
+                    @*<input type="hidden" id="imgFileHidden" value=""/>*@
+                    <input type="file" name="imgFile" class="layui-upload-file">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label"></label>
+            <div class="layui-input-block">
+                <div class="layui-input-block">
+                    <ul id="imgDiv"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">部门风采</label>
+            <div class="layui-input-block">
+                <div class="layui-input-block">
+                    @*<img class="img-cover" id="imgTitle" src="~/Content/didiadmin/sc_pic.jpg" onclick="addTitleImg(this)" width="160" height="160" />*@
+                    @*<input type="file" name="imgFile" id="imgFile" onchange="uploadImgChange(this)" style="display: none">*@
+                    @*<input type="hidden" id="imgFileHidden" value=""/>*@
+                    <input type="file" name="teamImgFile" class="layui-upload-file">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label"></label>
+            <div class="layui-input-block">
+                <div class="layui-input-block">
+                    <ul id="teamImgDiv"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">部门描述</label>
+            <div class="layui-input-block">
+                <textarea class="layui-textarea" id="DeptSummary" name="DeptSummary" style="display: none"></textarea>
+                @*<input type="text" name="DeptSummary" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">*@
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="voteSubmit">立即提交</button>
+                <button type="button" onclick="backList()" class="layui-btn layui-btn-primary">返回</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+
+<script id="dataTpl" type="text/html">
+    {{# for(var i = 0, len = d.length; i < len; i++){ }}
+    <tr>
+
+        <td>{{ d[i].Name }}</td>
+        <td>{{ d[i].DeptSummary }}</td>
+        <td style="text-align: center;"><i class="layui-icon" style="color: green;">{{ d[i].InsertDate }}</i></td>
+        <td>
+            @*<a href="/detail-19" target="_blank">预览</a>*@
+            <a href="javascript:void(0)" onclick="editData('{{d[i].Id}}')" class="layui-btn layui-btn-small"><i class="layui-icon">&#xe642;</i>  </a>
+            <a href="javascript:void(0)" onclick="delData('{{d[i].Id}}')" class="layui-btn layui-btn-small"><i class="layui-icon">&#xe640;</i></a>
+        </td>
+    </tr>
+    {{# } }}
+
+</script>
+@section scripts{
+    <script>
+        var imgIdArray = [], teamImgArray = [], form = null, laytpl=null,laypage=null;
+        layui.use(['layer', 'form', 'layedit', 'upload', 'laytpl', 'laypage'], function () {
+            form = layui.form();
+            var layer = layui.layer;
+            var layedit = layui.layedit;
+            laytpl = layui.laytpl;
+            laypage = layui.laypage;
+            //加载列表数据
+            loadListData();
+
+
+            //富文本编辑框
+            var summaryIndex = layedit.build('DeptSummary', {
+                tool: ['strong', 'italic', 'underline', 'del', '|', 'left', 'center', 'right']
+            });
+
+            //上传组件
+            //var pId = $('#ParentId').val();
+            layui.upload({
+                elem: $('input[name="imgFile"]'),
+                ext: 'jpg|png|gif',
+
+                url: '/UploadFile/UploadDeptImg?imgType=' + 1,
+                before: function (input) {
+                    if (imgIdArray.length == 1) {
+                        layer.alert('封面图片只能上传一张');
+                        return false;
+                    }
+                }, success: function (res) {
+                    console.log(res); //上传成功返回值，必须为json格式
+                    showImg('imgDiv', res);
+                }
+            });
+            layui.upload({
+                elem: $('input[name="teamImgFile"]'),
+                ext: 'jpg|png|gif',
+                url: '/UploadFile/UploadDeptImg?imgType=' + 0,
+                success: function (res) {
+                    console.log(res); //上传成功返回值，必须为json格式
+                    showImg('teamImgDiv', res);
+                }
+            });
+
+            //form表单验证
+            form.on('submit(voteSubmit)', function (data) {
+                //  layer.msg(JSON.stringify(data.field));
+                 console.log(data.field);
+                 var formData = data.field;
+
+                //富文本编辑器的值
+                formData.DeptSummary = layedit.getContent(summaryIndex);
+                //上传的图片id
+                var allImgIdS = imgIdArray.concat(teamImgArray);
+                formData.ImgIds = allImgIdS.join();
+
+                //如果分区不存在值，则取事业部的值
+                if (formData.ParentId == 0) {
+                    formData.ParentId = formData.GroupId;
+                }
+                //门店的值为2
+                formData.DeptType = 2;
+                Utils.ajaxPost('/admin/DeptVote/AddDeptVote', formData, 'json', function (ret) {
+                    if (ret.Ret) {
+                        layer.alert('保存成功');
+                        backList();
+                    }
+                });
+                return false;
+            });
+
+            //监听事业部下拉框
+            form.on('select(GroupId)', function (data) {
+                var groupId = data.value;
+                SelectChange(groupId);
+            });
+
+            
+        });
+
+      
+        function showImg(domId, res) {
+            if (res.Ret) {
+                if (domId == 'imgDiv') {
+                    imgIdArray.push(res.imgId);
+                }
+                if (domId == "teamImgDiv") {
+                    teamImgArray.push(res.imgId);
+                }
+                //imgIdArray.push(res.imgId);
+                var imgId = res.imgId;
+                var imgUrl = res.imgUrl;
+                var imgHtml = '<li id="imgTitle' + res.imgId + '"' + 'style="display:block;float:left;"><img class="img-cover"';
+                imgHtml += ' src="' + imgUrl + '" width="160" height="160"/><br/>';
+                imgHtml += '<a href="javascript:void(0);" onclick="deleteImg(' + imgId + ',' + "'" + imgUrl + "'" + ')" class="layui-btn">删除</a></li>';
+                $('#' + domId).append(imgHtml);
+            } else {
+                layer.alert('上传失败');
+            }
+        }
+
+        function deleteImg(idNum, imgUrl) {
+
+            console.log(idNum);
+            var id = "#imgTitle" + idNum;
+
+            $(id).remove();
+
+            console.log(imgIdArray);
+            var index = imgIdArray.indexOf(idNum);
+            if (index >= 0) {
+                imgIdArray.splice(index, 1);
+            }
+            Utils.ajaxPost('/admin/DeptVote/DeleteDeptImg', { id: idNum, imgUrl: imgUrl }, 'json', function (ret) {
+                console.log(ret);
+            });
+            console.log(imgIdArray);
+        }
+
+        //下拉选择change事件
+        function SelectChange(pId) {
+            Utils.ajaxGet('/admin/DeptVote/GetDeptByPid', { pid: pId }, 'json', function (ret) {
+                if (ret.Ret) {
+ 
+                    $('#ParentId').empty();
+                    var optData = ret.Data;
+                    if (optData.length > 0) {
+                        var optHtml = '';
+                        for (var i = 0; i < optData.length; i++) {
+
+                            optHtml += '<option value="' + optData[i].Id + '">';
+                            optHtml += optData[i].Name;
+                            optHtml += '</option>';
+                        }
+
+                        $('#ParentId').append(optHtml);
+
+                     
+                    } else {
+                        $('#ParentId').append("<option value='0'>请选择</option>");
+                    }
+                    //重新渲染下拉框
+                    form.render('select');
+                }
+            });
+        }
+
+        //新增
+        function addDeptShow() {
+            switchDiv(true);
+        }
+        //模板
+        var gettpl = document.getElementById('dataTpl').innerHTML;
+        //获取分页数据
+        function loadListData(page) {
+
+            page = page || 1;
+            Utils.ajaxGet('/Admin/GroupManage/GetGroupList', { pIndex: page, pSize: 15, deptType: 2 }, 'json', function (ret) {
+                console.log(ret);
+                if (ret.Ret) {
+                    laytpl(gettpl).render(ret.rows, function (html) {
+                        document.getElementById('dataView').innerHTML = html;
+                    });
+
+                    laypage({
+                        cont: $('#page'), //容器。值支持id名、原生dom对象，jquery对象,
+                        pages: ret.total, //总页数
+                        curr: ret.page,//当前页码
+                        skip: true, //是否开启跳页
+                        skin: 'molv',
+                        groups: 3, //连续显示分页数
+                        jump: function (e, first) { //触发分页后的回调
+                            if (!first) { //一定要加此判断，否则初始时会无限刷新
+                                loadListData(e.curr);
+                            }
+                        }
+                    });
+                }
+            });
+
+        }
+
+
+        //删除数据
+        function delData(id) {
+            console.log(id);
+            layer.confirm('确认删除？', {
+                btn: ['删除', '取消'] //按钮
+            }, function () {
+                Utils.ajaxPost('/Admin/DeptVote/DeleteDeptData', { id: id }, 'json', function (ret) {
+                    if (ret.Ret) {
+                        loadListData();
+                        layer.alert('成功');
+                    } else {
+                        layer.alert('失败');
+                    }
+                });
+            }, function () {
+
+            });
+
+
+        }
+        //返回列表
+        function backList() {
+            Utils.resetForm($('#mainForm'));
+            imgIdArray.length = 0;
+            teamImgArray.length = 0;
+            $('#imgDiv').html('');
+            $('#teamImgDiv').empty();
+            switchDiv(false);
+            loadListData();
+        }
+        //form和list切换
+        function switchDiv(num) {
+            if (num) {
+                $('#listDiv').hide();
+                $('#formDiv').show();
+            } else {
+                $('#formDiv').hide();
+                $('#listDiv').show();
+
+            }
+        }
+
+    </script>
+
+}
+

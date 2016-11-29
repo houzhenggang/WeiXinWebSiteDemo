@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+@model List<WxModel.DtoModel.VoteCountDto>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>投票排名</title>
+    <link href="~/Content/toupiao/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background:#c30d23">
+<div class="result_content">
+    @{
+        int i = 1;
+        foreach (var item in Model)
+        {
+            <div class="jinpai">
+                <div class="wrap">
+                    @{
+                        if (i == 1)
+                        {
+                            <p class="pic">
+                                <img src="~/Content/toupiao/images/1.png">
+                            </p>
+                        }
+                        else if (i == 2)
+                        {
+                            <p class="pic">
+                                <img src="~/Content/toupiao/images/2.png">
+                            </p>
+                        }
+                        else if (i == 3)
+                        {
+                            <p class="pic">
+                                <img src="~/Content/toupiao/images/3.png">
+                            </p>
+                        }
+                    }
+
+                    <p class="shuliang">
+                        <em>第@(i)名：@(item.DeptName)</em><a>@(item.VCount)票</a>
+                    </p>
+                </div>
+            </div>
+             i++;
+        }
+    }
+    <div class="bottom"></div>
+</div>
+
+</body>
+</html>

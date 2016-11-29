@@ -1,0 +1,28 @@
+﻿{
+    "button": [
+        {
+            "name": "🌐官网1",
+            "type": "view",
+            "key": "Home",
+            "url": "http://www.didizufang.com.cn",
+            "media_id": null,
+            "sub_button": null
+        },
+        {
+            "name": "租房app",
+            "type": "view",
+            "key": "App",
+            "url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.example.mydidizufang",
+            "media_id": null,
+            "sub_button": null
+        },
+        {
+            "name": "投票",
+            "type": "view",
+            "key": "menu2",
+            "url": "http://cs.didizufang.com.cn:9002/WxVote/Index",
+            "media_id": null,
+            "sub_button": null
+        }
+    ]
+}

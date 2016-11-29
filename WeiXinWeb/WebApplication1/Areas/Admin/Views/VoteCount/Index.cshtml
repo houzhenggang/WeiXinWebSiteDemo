@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "投票统计";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<form id="mainForm" class="layui-form layui-form-pane">
+    <div class="layui-form-item">
+        <label class="layui-form-label">所属事业部</label>
+        <div class="layui-input-block" style="width: 300px;">
+            @Html.DropDownList("GroupId", ViewBag.ParentDept as SelectList, null, new {@lay_filter = "GroupId"})
+            <p></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="voteSubmit">统计</button>
+            
+        </div>
+    </div>
+</form>
+<div id="">
+    <table class="site-table">
+        <thead>
+        <tr>
+            <th>名称</th>
+
+            <th>票数</th>
+            <th>所属片区</th>
+        </tr>
+        </thead>
+        <tbody id="dataView"></tbody>
+    </table>
+</div>
+
+<script id="dataTpl" type="text/html">
+    {{# for(var i = 0, len = d.length; i < len; i++){ }}
+    <tr>
+
+        <td>{{ d[i].DeptName }}</td>
+        <td>{{ d[i].VCount}}</td>
+        <td style="text-align: center;">
+            <i class="layui-icon" style="color: green;">{{ d[i].PartName }}</i>
+        </td>
+       
+    </tr>
+    {{# } }}
+
+</script>
+@section scripts{
+    <script>
+        var laytpl=null;
+        layui.use(['layer', 'form','laytpl'], function () {
+            var form = layui.form();
+            var layer = layui.layer;
+            laytpl = layui.laytpl;
+            form.on('submit(voteSubmit)', function (data) {
+                //  layer.msg(JSON.stringify(data.field));
+                console.log(data.field);
+                var formData = data.field;
+
+                Utils.ajaxPost('/admin/VoteCount/GetVoteCountByDeptId', { id: formData.GroupId }, 'json', function (ret) {
+                    if (ret.Ret) {
+                        console.log(ret.Data);
+                        rendData(ret.Data);
+                    } else {
+                        layer.alert('获取排名失败');
+                    }
+                   
+                });
+                return false;
+            });
+        });
+
+
+        //模板
+        var gettpl = document.getElementById('dataTpl').innerHTML;
+        function rendData(data) {
+            if (!$.isArray(data)) {
+                return;
+            }
+
+            laytpl(gettpl).render(data, function (html) {
+                document.getElementById('dataView').innerHTML = html;
+            });
+
+        }
+    </script>
+}
+
+

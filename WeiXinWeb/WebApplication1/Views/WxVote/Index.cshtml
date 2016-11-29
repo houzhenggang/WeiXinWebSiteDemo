@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewBag.Title = "门店投票";
+}
+
+@ViewBag.IsFollow
+<div class="title">微信投票</div>
+<div class="content">
+    <span class="c-title">最牛国家</span>
+    <p class="c-time">2015-05-15 anjy 橙多多研发中心</p>
+    <img class="c-pic" src="~/Content/demo/images/pic.jpg">
+    <span class="c-join">大家来参加</span>
+    <p class="c-join">
+        <a onclick="javascript: document.getElementById('#country').scrollIntoView();">最牛国家（单选）</a>
+        <a onclick="javascript: document.getElementById('#country2').scrollIntoView();">最牛国家（单选）2</a>
+        <a onclick="javascript: document.getElementById('#country3').scrollIntoView();">最牛国家（单选）3</a>
+    </p>
+    <div id="#country" class="c-table">
+        <p>最牛国家（单选）</p>
+        <ul>
+            <li>
+                <a href="/Vote/VoteResultList">
+                    <p>
+                        <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">中国
+                    </p>
+                </a>
+                <a href="/Vote/VoteResultList">
+                    <p>
+                        <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">美国
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/Vote/VoteResultList">
+                    <p>
+                        <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">中国
+                    </p>
+                </a>
+                <a href="/Vote/VoteResultList">
+                    <p>
+                        <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">美国
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/Vote/VoteResultList">
+                    <p>
+                        <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">中国
+                    </p>
+                </a>
+                <a href="/Vote/VoteResultList">
+                    <p>
+                        <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">美国
+                    </p>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div id="#country2" class="c-table">
+        <p>最牛国家（单选）2</p>
+        <a href="/WxVote/VoteResultList">
+            <p>
+                <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">中国
+            </p>
+        </a>
+        <a href="/WxVote/VoteResultList">
+            <p>
+                <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">美国
+            </p>
+        </a>
+        <a href="/WxVote/VoteResultList">
+            <p>
+                <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">俄罗斯
+            </p>
+        </a>
+    </div>
+    <div id="#country3" class="c-table">
+        <p>最牛国家（单选）3</p>
+        <a href="/WxVote/VoteResultList">
+            <p>
+                <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">中国
+            </p>
+        </a>
+        <a href="/WxVote/VoteResultList">
+            <p>
+                <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">美国
+            </p>
+        </a>
+        <a href="/WxVote/VoteResultList">
+            <p>
+                <img class="c-tablepic" src="~/Content/demo/images/pic.jpg">俄罗斯
+            </p>
+        </a>
+    </div>
+</div>
+<input type="button" value="投票" id="onMenuShareTimelineTest" onclick="wxVote()" style="width: 100px; height: 50px; background-color: blue" />
+@section scripts
+{
+    <script>
+        var openId = '@ViewBag.IsFollow';
+
+        $(function () {
+
+            if (openId == '0') {
+                //提示
+                layer.open({
+                    type: 1,
+                    content: '<p>请先关注公众号然后进行投票</p><br/><img class="c-pic" src="../Content/didizufang/images/didizhufang.jpg">',
+                    anim: 'up',
+                    style: 'position:fixed; left:0; top:0; width:100%; height:100%; border: none; -webkit-animation-duration: .5s; animation-duration: .5s;'
+                    //, time: 2 //2秒后自动关闭
+                });
+            }
+        });
+
+        function wxVote() {
+            wxUtils.Ajax('/WxVote/SubmitVote', { deptId: 1, openId:openId}, 'post', 'json', function (res) {
+                //提示
+                layer.open({
+                    content:res.Msg
+                    , skin: 'msg'
+                    , time: 3 //2秒后自动关闭
+                });
+            });
+        }
+
+    </script>
+}

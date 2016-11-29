@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--苹果手机全屏问题-->
+    <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/toupiao/css/boilerplate.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/toupiao/css/style.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/toupiao/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/toupiao/css/sweet-alert.css" rel="stylesheet" type="text/css">
+    @RenderSection("css", required: false)
+</head>
+<body style="background:#c30d23;">
+
+    @RenderBody()
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/layer_mobile/layer.js"></script>
+   <script src="~/Scripts/base/WxUtils.js"></script>
+    <script src="~/Content/toupiao/js/respond.min.js"></script>
+    <script src="~/Content/toupiao/js/sweet-alert.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+    @RenderSection("scripts", required: false)
+    <script>
+        var appid = '@ViewBag.AppId';
+        var noncestr = '@ViewBag.NonceStr';
+        var signature = '@ViewBag.Jssignature';
+        var timestamp = '@ViewBag.Tspan';
+
+        wx.config({
+            debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+            appId: appid, // 必填，公众号的唯一标识
+            timestamp: timestamp, // 必填，生成签名的时间戳
+            nonceStr: noncestr, // 必填，生成签名的随机串
+            signature: signature,// 必填，签名，见附录1
+            jsApiList: ['checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'closeWindow'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+        });
+
+
+        //验证成功
+        wx.ready(function () {
+
+
+            // 2.2 监听“分享到朋友圈”按钮点击、自定义分享内容及分享结果接口
+            wx.onMenuShareTimeline({
+                       title: '嘀嘀租房杯,发现人气团队投票评选',
+                        desc:'嘀嘀租房杯,发现人气团队投票评选',
+                        link: 'http://cs.didizufang.com.cn:9002/WxVoteNew/Index',
+                        imgUrl: 'http://cs.didizufang.com.cn:9002/WeiXinImg/testWeixin.png',
+                        trigger: function (res) {
+                            // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+                           // alert('用户点击分享到朋友圈');
+                        },
+                        success: function (res) {
+                           // alert('已分享');
+                        },
+                        cancel: function (res) {
+                           // alert('已取消');
+                        },
+                        fail: function (res) {
+                           // alert('error:' + JSON.stringify(res));
+                        }
+                    });
+        });
+
+    </script>
+</body>
+</html>
+

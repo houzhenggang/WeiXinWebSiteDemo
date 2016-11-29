@@ -1,0 +1,1281 @@
+
+[2016-11-23 08:43:59,912] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=60c49645177f4b4aabbb78bf35ec37a3&timestamp=1479861839&url=/WxVote/RequestApi
+
+
+[2016-11-23 08:43:59,912] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=b9a413038d054539bb19c75904c691e0&timestamp=1479861839&url=/WxVote/RequestApi
+
+
+[2016-11-23 08:43:59,928] InfoLog 
+jssignature=ed3b7d3cb568c6ff40a9831177f185dffee6cbd5
+
+
+[2016-11-23 08:43:59,928] InfoLog 
+jssignature=a50afcc87a0a380a0f1976b54c2dead1582da1b0
+
+
+[2016-11-23 08:44:00,489] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=f0673a4a601646f4a8be3d79d8d17619&timestamp=1479861840&url=/WxVote/Index
+
+
+[2016-11-23 08:44:00,489] InfoLog 
+jssignature=7c0c05d73b54b4d8e3988a1f3e6b7ec0ecb199f5
+
+
+[2016-11-23 08:44:00,552] InfoLog 
+openidData:{"access_token":"ASIgjKnYvVj1V70DHwoYhXtaX_OnCARRr_uOVGYBr3qoegwFO08rrRvSwPp6g-B6h3M7R_fMQKqsRteRa5z35kxeRj_ze2Cj-xNy84mtWlc","expires_in":7200,"refresh_token":"ohrKfyhTXVLkUeTr67z3F_7ZCt4aBW8NSBFF11fRT7TdL3o7wuZ_xZU6RgOnPsaV1rsdWG8647eNPNM0apQthjUthxTYuwpVPfImQqWL4DE","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 08:44:00,723] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 08:45:11,103] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=5c8594984b664247846c8951319d6362&timestamp=1479861911&url=/wxvote/requestapi
+
+
+[2016-11-23 08:45:11,103] InfoLog 
+jssignature=ef80633b4ac67182eb0901ed02d5f918d2fdf986
+
+
+[2016-11-23 08:45:12,964] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=0018afcd7d48442ebe56e750c02878f2&timestamp=1479861912&url=/WxVote/Index
+
+
+[2016-11-23 08:45:12,964] InfoLog 
+jssignature=34fd8afe2fad870e141a4c93112d0e14afc5f204
+
+
+[2016-11-23 08:45:13,057] InfoLog 
+openidData:{"access_token":"29gQgfZW9Y06yG2IYs7RzaeejRzc0W5ga_UhuC9gKnnbxkzNizR8So5qu9A-mCajpFbsuGvlasL770iS5mRtKwiiC4synesZ2hlbAb2IdXM","expires_in":7200,"refresh_token":"yODM7pXMd7SZkLbG95SwvvtlONTtd2SK8ON7NNbTO3XMZJpS5f2lc75AY2q_WxRhNvjY3tVLu9QDodjCplsp1bDiQQ19JJF1Eb8veV9Cei0","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 08:45:13,182] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 08:51:09,078] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=968a551a2dc94013b9e4967c9e37c8d6&timestamp=1479862268&url=/wxvote/requestapi
+
+
+[2016-11-23 08:51:09,078] InfoLog 
+jssignature=C67E504AB2BFFA1A49CAF2D81EFF059A4502F40A
+
+
+[2016-11-23 08:51:11,798] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=fcedae2763c141ec9b923bce5784dc74&timestamp=1479862271&url=/WxVote/Index
+
+
+[2016-11-23 08:51:11,798] InfoLog 
+jssignature=FB45657AD8ACE09FDB8919834851C29C2CC83881
+
+
+[2016-11-23 08:51:11,845] InfoLog 
+openidData:{"access_token":"jjdK5VbUHxfk9yu7g9JBgBkeuoBw9B15ukcRrg70E2DYiJJhbZnxUHsRZzYgcgkKn46I6y5VM9Sxo8-GkOLie0l5VpPXqNZbn5E0JMdWB-8","expires_in":7200,"refresh_token":"o1S3KUCqJLWgWMSe1iBJJYT0GW8Srx9y21YXsklUm5Sl--OypFKnGkO8jfvzOnrlr48BFaaLwCxjaWjOAmBE7UI4bBErqU3m8ILYRSpNVkw","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 08:51:11,985] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 08:54:21,565] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=5db2315639a141a6aa41d0354063467d&timestamp=1479862461&url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 08:54:21,565] InfoLog 
+jssignature=305129a380300682b24b8548eafa7ededb601a92
+
+
+[2016-11-23 08:54:21,909] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=2e7dad6558664a30a46eaa742bffb7de&timestamp=1479862461&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011oTxrv1LsZSb0g03ov1VZxrv1oTxrx&state=STATE
+
+
+[2016-11-23 08:54:21,909] InfoLog 
+jssignature=a18e632067601d4a9f1c18a304d187ba07506c34
+
+
+[2016-11-23 08:54:21,956] InfoLog 
+openidData:{"access_token":"L90ZGqv0usoPLSt0Pstt9D5SZDmdWlIzpZD2XDWyvyyutpNRlgBeAMUjZN3gnDV9sFkuBAAKQ5iLjKrLKOv7tYkAuRJU-Rv0tJV1ULBZYfY","expires_in":7200,"refresh_token":"GfvqhUotfvkihETRHd7VBPqdj0csWeBnRIgzci41lW0jeuv_FPbk1eaDM2Jek0z6URnCHtU3rS-q_jcXcGfEMy1he1fWgqkJh6dLyFtiS9A","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 08:54:22,096] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 08:55:41,040] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=eb894472d90e4f3c9cfa8aeaf7463720&timestamp=1479862541&url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 08:55:41,040] InfoLog 
+jssignature=80137582792e38e7de480806cf7ef361d42e4639
+
+
+[2016-11-23 08:55:41,539] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=5f429fb3687d4298a23cee7050e88733&timestamp=1479862541&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=001KnHjl131eGj0nTFkl1olxjl1KnHju&state=STATE
+
+
+[2016-11-23 08:55:41,539] InfoLog 
+jssignature=43fd9afcf3fd4592e6cff600e6be56bafb0c1aaf
+
+
+[2016-11-23 08:55:41,632] InfoLog 
+openidData:{"access_token":"HNpuaRPOeGZrFOW904jmAtodGbsau-dJb4s2JlkP-Z7SIGAzCMllTS4JGwKJgqa-17Qt9_wf3rCvv0BzNlzsDFfFj3i8MZb_cSScJvgFFiM","expires_in":7200,"refresh_token":"wlqNA466B6JUEbce4qwLuin6F9eFoiIJhsgJue1d9CEfgdHnSt-Thito4QBBD_oc_LDO8WRpTgwBXxzr5YuvZNI4zx125M4NhEUhL-7W0B4","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 08:55:42,368] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 08:56:50,059] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=636c90f0775b404b837e89246ca9f9de&timestamp=1479862610&url=http://cs.didizufang.com.cn:9002/wxvote/index
+
+
+[2016-11-23 08:56:50,059] InfoLog 
+jssignature=7de55de06c9594b58a28ccd32a85fc0954ec72e1
+
+
+[2016-11-23 08:59:09,140] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=78142c010962462e908a8a0839022f73&timestamp=1479862749&url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 08:59:09,140] InfoLog 
+jssignature=08090d866f40aea88697b727decda5620804e9a6
+
+
+[2016-11-23 08:59:09,374] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=9dec9ef5852e4ab080d258bea6347bee&timestamp=1479862749&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021gXKGn0Xsjkp1QcIFn0EvsGn0gXKG9&state=STATE
+
+
+[2016-11-23 08:59:09,374] InfoLog 
+jssignature=ab6bbf05481d47f2ac35584c7e759825d24cf570
+
+
+[2016-11-23 08:59:09,702] InfoLog 
+openidData:{"access_token":"viRP2xF5ElPN-EKJkXBAbm5NZaAX5cpS493hei0GkzM9xsoRL8emtUVEle6wyeWphgWR7Nw0AW1AA0hMQHelOKYX1WK-ti-hr8iftw_U1Cw","expires_in":7200,"refresh_token":"kL616DwthkbT89Lw3XymrUJwhbwDdWupq3Cu_reKgA-lnBaDnDubJ_BCotcWZgA_znB4P7sp0KWHi6eFdQjzHS1YndTQlV5WzHz7EPG7nE0","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 08:59:09,827] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:09:43,412] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=0cd0b04a62bb4bcaa38c5a4d19a8974b&timestamp=1479863383&url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 09:09:43,412] InfoLog 
+jssignature=6a15cad524c5936c0e4428e4323bd7f96367d46c
+
+
+[2016-11-23 09:09:43,677] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=3d19c39f66d04090a47e1a25390b10be&timestamp=1479863383&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=041iD4a81lleOR1CzL781fs9a81iD4ar&state=STATE
+
+
+[2016-11-23 09:09:43,677] InfoLog 
+jssignature=043b7c6cd00c10692324eb77996bf29e9e919c76
+
+
+[2016-11-23 09:09:43,802] InfoLog 
+openidData:{"access_token":"atNGX00sD0PbC-a1OViIL08zkoqHFDT-glPvs6KFgYN2ZrMETKul_h0-ciPxLA8-B73IE9PB8-oFV_jo28P9jLrIj3ykFa6FcLEVk-5Cjmc","expires_in":7200,"refresh_token":"k-q7dsCG6OxA5m3Q2ebNVbWPBnv7ACbDYv1Jh4U5bYdR_tFccrD9zftMZf0Ce8w4ah1TWux_eW7Dcmk3xcDKo54-85gr97Qgm5pf2n1Eqi4","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:09:43,911] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:14:25,750] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=b1f0902bc97c480a9d7ddcb1369acf70&timestamp=1479863665&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:14:25,750] InfoLog 
+jssignature=7f5b05c3f36ec2b9b8da77bd8811b26ec4ca3f26
+
+
+[2016-11-23 09:14:25,984] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=4f2e51b3c57047b6bb54c21363b98a14&timestamp=1479863665&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=001kT2p91baCLS1lips91NAap91kT2p2&state=STATE
+
+
+[2016-11-23 09:14:25,984] InfoLog 
+jssignature=2ca554212c836b87b3d3f09fc091eb290fa9c787
+
+
+[2016-11-23 09:14:26,095] InfoLog 
+openidData:{"access_token":"QJo_EGciZZXgi5aPZrKk8pJ_GS9oi99sBJpjPnWEL-vPBonRONd4ifLjjskNSkkHyHJPFqt4jelG0GYdR0WaP5OiJmgebdX3aukVGt91SiE","expires_in":7200,"refresh_token":"lMmz1jZPYpi2ESL2H5UBRCe7sbN4CmQYGNqc2utrn-EvLBIfHFYKOB9npzbLmUlp32RdrmCGboKGtB9ZVmI1QslSjAPIePLOP9F6Y_o17BI","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:14:26,206] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:16:11,825] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=03f3212f318f44c7a609740ca28e0f2e&timestamp=1479863771&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:16:11,825] InfoLog 
+jssignature=f8a73f386b9ba72b3ad7cb7871dfc89ecc54fb4f
+
+
+[2016-11-23 09:16:13,325] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=2bb59de075c54549bb5f554fb251ffe3&timestamp=1479863773&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=041GRnod0RkZmx1mneod0dHlod0GRnow&state=STATE
+
+
+[2016-11-23 09:16:13,325] InfoLog 
+jssignature=e6ca0db065eec9a23eb682c79c30f5e8ae194516
+
+
+[2016-11-23 09:16:13,416] InfoLog 
+openidData:{"access_token":"wS_opRLz35Ly4_iLFNhvq8ak5mdtp1P8owJL8M9K6yvOhf7cX8kJo62gvAubIyrEWBbL60-FQRaoNqY2_d-Kt0tI6xyuyuqAQGIrET1UscU","expires_in":7200,"refresh_token":"lMmz1jZPYpi2ESL2H5UBRI_7QIHfWnj0UHEDwwZasoHVLQwQHQ3J9JwEYiFcUIleCqPcfsmjezRGR-m1OKREwrugWzTs19uQ9lxPq6tYRbE","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:16:13,721] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:20:46,169] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=bf94ab8e4af644ba8b9dc7f5f515b9b6&timestamp=1479864046&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:20:46,169] InfoLog 
+jssignature=46683fbb53b1484c0adef13cb5dcc2cfbe071beb
+
+
+[2016-11-23 09:20:46,387] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=fac88fb72cbf469f80d3a8c5bd9b16a1&timestamp=1479864046&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=001AmeGQ1WyWu714fDGQ178qGQ1AmeGd&state=STATE
+
+
+[2016-11-23 09:20:46,387] InfoLog 
+jssignature=43f3604b9ede98517d1fc26f1f374b76e21a43e7
+
+
+[2016-11-23 09:20:46,481] InfoLog 
+openidData:{"access_token":"jRcaUA5OyOG8pieSCX8qNZfle-JCihG_VWMqKL8tqYP32LXTjquMBqpjGjpfuJtjqHBdL-BjSwtHYk9l3jNjAJ7ARnbiAC8E6dsTcUXhN-A","expires_in":7200,"refresh_token":"htr4BC3jk2Yfadym4-wiCn_TDwVJJj6UnlY7AbukR6H6ktHR0gmu7-fwqI5FWZEIT9TR0QzTwqYkJpxZHXlWUYZfW_Ta6tVqsdnu_hjabPY","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:20:46,590] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:21:15,355] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=873043cfeaee4d579cd33e0ef4305598&timestamp=1479864075&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:21:15,355] InfoLog 
+jssignature=b69fe1d2f31afa88de3ae205b825e250c03a54b6
+
+
+[2016-11-23 09:21:15,589] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=7d6604ec3ee1448083c56c940aa239d5&timestamp=1479864075&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=041Y1ERh2XNUKF0ZUfSh2NyORh2Y1ERM&state=STATE
+
+
+[2016-11-23 09:21:15,589] InfoLog 
+jssignature=17003021a9ce5d48849a4207d9884e5eccc93f9b
+
+
+[2016-11-23 09:21:15,682] InfoLog 
+openidData:{"access_token":"9kz5MhB2CFau-td_t_CCo6adJ6chQ_A9WIM-sQEiRJi_dpEYaCr8wLbMbnCeiQ0SFcKaHyJlQzWIQ8yrYosRcsnSfD9BaMj1ujekaMI6UeY","expires_in":7200,"refresh_token":"kBQuCJ1qaK1t2dLso6_sMXiXYZFfCPsti2zHZarA7QK8F3Vws1Q8iUanHWMtGCFQqdjz47HYGM9tOLULt14p7wfDuhh9VIjQYPEt0Muey3M","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:21:15,791] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:22:07,888] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=29f2dd7386034f3b94399c8097ba43cd&timestamp=1479864127&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:22:07,888] InfoLog 
+jssignature=fe5237dc1ef2f0ca475b4f910665dc511668cafa
+
+
+[2016-11-23 09:22:18,726] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=b2af8447a81c4d208cc213ac77556ee6&timestamp=1479864138&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031Br8Ac0979ow1aDWzc0YPWzc0Br8A4&state=STATE
+
+
+[2016-11-23 09:22:18,726] InfoLog 
+jssignature=b89140b60511f620766a723a8448ffaccb2023f7
+
+
+[2016-11-23 09:22:18,820] InfoLog 
+openidData:{"access_token":"bkj52nWSW9O1Vq4LoleFibi5_gQF8qmmWsLRodkLShfgYWF7o-QjjKC5shJmOTynRAJMsuE9IvzvWaTwPJ2r0lM94yrP-TdveY37jFh0z34","expires_in":7200,"refresh_token":"17e5D0IV98GSfINmCyIeYu8W70TH2BTKkukrTmvgJ3N-q3q2BpEtgELyWkPd-8LhAjAzUwxU0LacA6TKLEKNLBUSdTi-8ND_wxlSPTh7QAo","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:22:18,914] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:22:19,631] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=b37cfb2fa7784f2b96fbd07e5b702028&timestamp=1479864139&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031Br8Ac0979ow1aDWzc0YPWzc0Br8A4&state=STATE
+
+
+[2016-11-23 09:22:19,631] InfoLog 
+jssignature=5d41be16a4910c4981b2b2d10da24dfce88604ca
+
+
+[2016-11-23 09:22:19,647] InfoLog 
+openidData:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vE0FTA0219ns80 ]"}
+
+
+[2016-11-23 09:23:32,288] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=2d1990e1624a4331962837d6a6d8f78f&timestamp=1479864212&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:23:32,288] InfoLog 
+jssignature=f73230401b09cca2b2729eb52c3a16134a02944f
+
+
+[2016-11-23 09:23:32,725] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=044095cfd6e54d999e6dd17945c27006&timestamp=1479864212&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011OuX5k1I36Ii04wb5k1pk56k1OuX5S&state=STATE
+
+
+[2016-11-23 09:23:32,725] InfoLog 
+jssignature=4a9710a86a988b06a63062fd0019da76c0f3a2f0
+
+
+[2016-11-23 09:23:32,805] InfoLog 
+openidData:{"access_token":"v1J4tDak0aP2OmXlkOfA52fjgUtGe9jR3sV3rTPREMHqdKG78gSVdfqBsesf1NFxaTVHPrBdXlGUiJQSwNs9W54ToabfnJ3Hn1mTFRFnyUA","expires_in":7200,"refresh_token":"jjdK5VbUHxfk9yu7g9JBgAsqDK6Kxbk1XS7tyxXsQDdm3kntyVzl2tvT0N_aSNE_usRAAdYAUOPejKvGqTTc6UGje4GfMPmQO4ppg1tohF8","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:23:32,914] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:25:09,453] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=494953c892014bd88e0d69c17ab22641&timestamp=1479864309&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:25:09,453] InfoLog 
+jssignature=a1a362e81f00796aaecf6ce2175d17dcb3b0b482
+
+
+[2016-11-23 09:25:09,734] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=e2260ea785264b34859896fc637da31b&timestamp=1479864309&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011Ezweg2Jn2yE0ghDgg2PZBeg2EzweT&state=STATE
+
+
+[2016-11-23 09:25:09,734] InfoLog 
+jssignature=fc5a6a8c5051ceb62ec8c84ef16b4144b9cf6239
+
+
+[2016-11-23 09:25:09,827] InfoLog 
+openidData:{"access_token":"cH_0RMBl8KvuDE9FErlW8ZRm0hOXcxlzGTkjiepkfoGDfN6FocuRu3r2LTg4_XOBB83uqglR8-u4YdejFvDvXARN0pNqVEpKAf3bGwWnW-E","expires_in":7200,"refresh_token":"NMt5xu4d3ke42EXx_yWV34ElscnHoquPSEw2dqDR_zW4hItnAZMP8W6eAcEH0rFBtiZhF79mF397pr6yMtSuzo_-tStzV04685CXzrHLUB8","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:25:09,936] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:25:52,188] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=9bb4eb3424154012ba96581dfe506400&timestamp=1479864352&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:25:52,188] InfoLog 
+jssignature=72dbad0e01b705e3ee302c930a5e645b2bc94ae0
+
+
+[2016-11-23 09:25:52,390] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=6bcbab51a36a465499f004392fd58556&timestamp=1479864352&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011XAqY121vec01eVKX12cJiY12XAqYY&state=STATE
+
+
+[2016-11-23 09:25:52,390] InfoLog 
+jssignature=67a130fc98cd13f7ecfe54de045c6ef41ba1ffc4
+
+
+[2016-11-23 09:25:52,468] InfoLog 
+openidData:{"access_token":"H3iBvuACxmCa1LKeOuw5MQU2_GYQsoMfM1t7ySAeJ-qQirlUvlKTx_kDQH0ARavyx5y696M9eXvntI5p8Si5dmcsKgngSPuTNmrsk4Z4eqg","expires_in":7200,"refresh_token":"v1J4tDak0aP2OmXlkOfA53pZOJJE00sSn-yJZGEmWI2GEFoE1veyDv1fObVRMdCS5QDjPiKuod57T7M64qT_eQhVCz5AIDll6LQWP3atXEQ","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:25:52,562] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:26:27,667] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=024494c902bb4dbd8cc80fbf70842b07&timestamp=1479864387&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:26:27,667] InfoLog 
+jssignature=9bd40ff5830180845c5b4a4ce9611c6beb9cdf2b
+
+
+[2016-11-23 09:26:28,026] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=df7bae24ea9947e49773b1c9f26f9b90&timestamp=1479864388&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=041DBsBS0CeTeU1GFtCS0wMiBS0DBsBf&state=STATE
+
+
+[2016-11-23 09:26:28,026] InfoLog 
+jssignature=7b4d5a9262dc5cf7b868824a83adf06cbc4e024b
+
+
+[2016-11-23 09:26:28,135] InfoLog 
+openidData:{"access_token":"SaLcVgXf_cwJmUJ6rEcbL651_L8mLObVtaJM8MLrgR3ab3bSRe8o8rj3VRgEoF4JVFMhjo8b0MJyrXHfbV85YfAiPEzPvj4uOvcMi7CL6jk","expires_in":7200,"refresh_token":"jRcaUA5OyOG8pieSCX8qNdqa0KyN4y0u-o5P-tZhtGE8IaC_aWmHbq3F3wMX4NNljWhkY5cxBksrr7ce1hFg8y-iTZxQMQO1SMDxnVKURSQ","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:26:28,229] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:32:27,955] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=79f5c0d5c1414b4aaeb09618e14a7b9a&timestamp=1479864747&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:32:27,955] InfoLog 
+jssignature=6f914d91488c09ee6a837183d849652572e21ca1
+
+
+[2016-11-23 09:32:28,314] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=05ebe3d924b34f81b1f309c58b2301c9&timestamp=1479864748&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021S031M1gpMv210GK0M11bZ0M1S0317&state=STATE
+
+
+[2016-11-23 09:32:28,314] InfoLog 
+jssignature=e008392f5863cad25f8294746e93e30d74e2bf31
+
+
+[2016-11-23 09:32:28,407] InfoLog 
+openidData:{"access_token":"ST4ilZr39gqEaRdD7fsSuMKYQxlRZQsR47D0YQScKb7e8BYjSnZYMYmVzWARLLn95uEm2ekvUmkF3sCxcAPtcw6ixMwtbVInz8dKxY49auo","expires_in":7200,"refresh_token":"kL616DwthkbT89Lw3Xymre0XQleVY43XIxomE3AfrXD-G5AqGshRn-mdS0KWECow1x3KQ5N2j3cGoOwaYFc8UAULyLL0O_lZIFLF26IM4iQ","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:32:28,501] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:32:49,336] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=4d5a67dbc23a4bc2aaaf9ae193fd23a7&timestamp=1479864769&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:32:49,336] InfoLog 
+jssignature=4bc477f77a593ee7d62a74d7167899c1b5b2ce82
+
+
+[2016-11-23 09:32:49,884] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=722ffa74b54341209b379681924cac54&timestamp=1479864769&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031HsU210IntSC12h2110UZX210HsU2A&state=STATE
+
+
+[2016-11-23 09:32:49,884] InfoLog 
+jssignature=40800f659cd1d6ab3872510482662a61eda170e7
+
+
+[2016-11-23 09:32:49,962] InfoLog 
+openidData:{"access_token":"Doouk-tjwfCuz9aMgsX9Ck3vBZB_UIhXmVHZkkfbGvTLKkUrkWsD9w0tPD0u7Gs_lq0PsTe0IqQ4_Tvtl578As6sdJ4sSt-cQAa4aM4Zjnw","expires_in":7200,"refresh_token":"3lZPeKMNfl2Dka9XOscQBliQrcx41P_qPqqx-PqhUaPAalI35hNMkbU-YrQvSdagWcGIeROy9tlLM3ishvbFhXPOxFmhATSB7nKP1dtTLYU","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:32:50,072] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:35:30,350] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=fedaec41657b49d5a44c76fd1b9546be&timestamp=1479864930&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:35:30,350] InfoLog 
+jssignature=6dd1dbfd0a093d6b92e833e643f5f0907001317c
+
+
+[2016-11-23 09:35:30,802] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=60f0c9f8aaeb427d84adf0b4561484da&timestamp=1479864930&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011WmX6I0ok07k2sKD4I0U2P6I0WmX6Q&state=STATE
+
+
+[2016-11-23 09:35:30,802] InfoLog 
+jssignature=e76f002113b7cdae2e456ed1339af5f40fd22920
+
+
+[2016-11-23 09:35:30,904] InfoLog 
+openidData:{"access_token":"ohrKfyhTXVLkUeTr67z3F8cmzWsH7E0CU89ebTNqqX_RJsqGqfwS48hvFdHPMFDUEj8cLlt9GBYX9CBz2x8QBTLV4DGygQ9_xvdMPuK7Gco","expires_in":7200,"refresh_token":"0b87_rNju9AOegK_6tnrIzMw3UCbCeNZI1I3GEgnEqSaY0MNd3O-WdpKoxQHzjeJJptzTzzahDlUboIUitoqA1ZeMb5-sbKRcCWGo4YBDHU","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:35:30,997] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:39:05,939] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=85fa9b02cf684a4eaebd4440d10942b6&timestamp=1479865145&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:39:05,939] InfoLog 
+jssignature=2dd56076295f959aad32f3fcd25da7a5e65e2691
+
+
+[2016-11-23 09:39:06,266] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=9ee7beb040b947e0b0898bd47f335751&timestamp=1479865146&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011QXpOZ0ZVcc129a4SZ0EnpOZ0QXpOb&state=STATE
+
+
+[2016-11-23 09:39:06,266] InfoLog 
+jssignature=c72ffc939b9a14955f3099be6e96d18c371bdea2
+
+
+[2016-11-23 09:39:06,360] InfoLog 
+openidData:{"access_token":"MdEDOOCOMDRIW98eLSV5EtIbjYWQzudtV1ItRLJ_xp0bdPlbjevVAQRCit_gGJpKc4OoEU7fFd2F8kxT0YyWfT4Wh0CxwVCq3PNSMeoRdDw","expires_in":7200,"refresh_token":"WQTYa9HUNj5vumo7vx-eftoqwCX2u2LPnzKRWLLS89GQMaXnbfiq7_EDlkZcnj8eaRQ_2RpzCq0KOdU1tRnsQ9Y-Sm9PDwYJ41iMMEI-YWg","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:39:06,456] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:39:17,789] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=c40c7b27204a40daa6454c82ea976af2&timestamp=1479865157&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:39:17,789] InfoLog 
+jssignature=cc497be4474b5d93f4858739a0348d01de15fb4a
+
+
+[2016-11-23 09:39:18,195] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=5b2364b8bfd44121a6784aa83ebc995d&timestamp=1479865158&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021F2vvS0kUIjU1gmKyS0NvkvS0F2vvI&state=STATE
+
+
+[2016-11-23 09:39:18,195] InfoLog 
+jssignature=4a9f789c143a7a8d7eccecbbff3328ed810e040a
+
+
+[2016-11-23 09:39:18,242] InfoLog 
+openidData:{"access_token":"lQjIzpHQV2x4XVoZkst9KdED3eu72b1kx0RbYuuZhwQklfUBTjIJaq7gc9uZjF0IUOUEMEpS4gebLXcqJxIMkn-EhKgi6yxrLg-Si60_kN4","expires_in":7200,"refresh_token":"qOUQkd9Crfj89aIBpnHq-gAjcazb6VHrDimad2xrKPCl0r6bthmamTaOkE3FVl2I-h5zbAw3hwe2XOlDQbiMajRcvkpXvmI2d1Qt2tj8qQ0","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:39:18,335] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:41:03,684] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=b89de4701f034ea2bd449cbd57a5b542&timestamp=1479865263&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:41:03,700] InfoLog 
+jssignature=afd93f11f19f6809321cfc7990bbfaa7ab283b44
+
+
+[2016-11-23 09:41:04,328] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=f02c5f12a59740c4bbec24a60b147c18&timestamp=1479865264&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=041KnkwK1uvYE80cODwK111xwK1KnkwZ&state=STATE
+
+
+[2016-11-23 09:41:04,328] InfoLog 
+jssignature=f1c14b7ec87e8fbc267b76859667617aea6d80e0
+
+
+[2016-11-23 09:41:04,390] InfoLog 
+openidData:{"access_token":"PXCDiMlAPMbrF1NVDeLq6ilEN6IEIfGyXW3xPAvCZuzeZYowZ6A1ClcLL6J3kpXLbTP1AM5J46mvjOZcwc2-se3YAsCoblgaunIkX-qhjKk","expires_in":7200,"refresh_token":"tdhaIkwCc-bFvE9PDpYHratwEeyLkr_I7CDrGxYKcyw1fh0K-Nl2cwtMtVES1n1b2LQwSF-lwrgLjzXaqpg67PMwHOtqghtbxi4g3v8QL2E","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:41:04,562] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:47:48,827] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=b36372f1e9d64d1aba66dff395f11c3f&timestamp=1479865668&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:47:48,827] InfoLog 
+jssignature=58b70d616b65b954694113f93046aa21f1963083
+
+
+[2016-11-23 09:47:49,061] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=6eb20b976da042868ff52899f49d8914&timestamp=1479865669&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=001ddnqy17yaAe09DYmy1Tteqy1ddnqN&state=STATE
+
+
+[2016-11-23 09:47:49,061] InfoLog 
+jssignature=83ec8e2b1a47ec4a500ca25b3a75626212561b8b
+
+
+[2016-11-23 09:47:49,186] InfoLog 
+openidData:{"access_token":"oPYxx0FSG_JISOnsj_JlW8KxC1epcPX-lDwSXtYmOgkn2Rh27u93irirMscz5CFuEOQ2M6_xnjcY85tP80sGkuFH_egD1zxG0jwKlUuGMA4","expires_in":7200,"refresh_token":"viRP2xF5ElPN-EKJkXBAbp5_pWmuEMpgwo9kVzyjERERVbK75_cHgIcNxLbyUZYfBdUSWIvW4YkS-7Vq9AWjVOwgG0kIyf_oxBK-KTqf--o","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:47:49,295] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 09:50:49,491] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=3a0abe81bce74514a412483038166c78&timestamp=1479865849&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 09:50:49,491] InfoLog 
+jssignature=16ebf6156f31ef850ec406a43056025c9d552569
+
+
+[2016-11-23 09:50:49,701] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=ef6ffe036c9d4d17be813f1411cf19b0&timestamp=1479865849&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011Y4D7a1jRwJT1dq47a1Y5z7a1Y4D7q&state=STATE
+
+
+[2016-11-23 09:50:49,701] InfoLog 
+jssignature=672eb9eaadb8d3aa50a3704fa5b2e3123609cf5d
+
+
+[2016-11-23 09:50:49,792] InfoLog 
+openidData:{"access_token":"rna3JsR0ivf4chgex2rIy0gii2h605FGwVqbGPXzKX5y4icfcRyF_XoBTQagIseRqnPOGJv1dTJEFCKL1E9teyuqxqG6UUaj-gRhaWPYDcw","expires_in":7200,"refresh_token":"L90ZGqv0usoPLSt0Pstt9BsB-NO8dACGarIRWq5s8OOARhiHKrNNRlVPErI0zYOtrxscRASlFWpxGXYb9ZO7s6SkeEiO3CH4MU0BGjKNT_M","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 09:50:50,136] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 10:03:56,351] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=204c36c7975f47ca9766d534302e4727&timestamp=1479866636&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 10:03:56,351] InfoLog 
+jssignature=2ac45225410a63952da62ed15241225d3dc9f2a9
+
+
+[2016-11-23 10:03:56,619] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJjJUnoIZcEzAnbOCQsx1xpbM2S7ptusuGTHrWemb8-Lw&noncestr=009ba53169184179a08666aa2da9e2a7&timestamp=1479866636&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011Ezcea0Co4du1kMtfa0K0uea0Ezceq&state=STATE
+
+
+[2016-11-23 10:03:56,619] InfoLog 
+jssignature=d6bb511690b46b228814a27c939c91a049297350
+
+
+[2016-11-23 10:03:56,742] InfoLog 
+openidData:{"access_token":"oUPrqbpACxNOzLibplJl3HXRKJPHVRHXejvZtfxVWgiyKZmMBYVmyX2J3eknJvsKqNm_9fqXF1eaekp6Fbq9DSLelp7B1VeplT4-vYSftiw","expires_in":7200,"refresh_token":"YWI5mxxDwAyavJrzWZyGmRMUZy5PAQlGS7LPuPu3eqdvSK6zWJ0GfOpTyB922FM5HMHtdb3xSaKKVGulbviupN5rHfLEoa8fk8VTyCdnjPo","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 10:03:56,849] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 10:27:59,620] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJfr4SuAkk5mBNMPxiAiMkrpBhrENuujbZaYgDAMFkTbg&noncestr=cf92e38b0f9841179b309dcea53eb77d&timestamp=1479868079&url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 10:27:59,636] InfoLog 
+jssignature=15e6a3d0c41b387f8dfdb2c49d89a39174cb3613
+
+
+[2016-11-23 10:28:00,230] InfoLog 
+singStr=jsapi_ticket=kgt8ON7yVITDhtdwci0qeRQz_ItcK4yFH-qvjCBkMtJfr4SuAkk5mBNMPxiAiMkrpBhrENuujbZaYgDAMFkTbg&noncestr=00dbd006e51749c4a7f55a4a396eada6&timestamp=1479868080&url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=041OBa5R0J9R3b2Crf8R0Gv65R0OBa5t&state=STATE
+
+
+[2016-11-23 10:28:00,230] InfoLog 
+jssignature=07a23eb9b33df1faf74f5af282da86f25d249120
+
+
+[2016-11-23 10:28:00,276] InfoLog 
+openidData:{"access_token":"8tr29Dn-WBSMXbpAzJqLow-7uaN36UFLyKUJP5iaabj39TJYj7r6bbeVVyUiB1EOBNXGzWAOwvwav4XGVgcaWjyptuT5kwv8i-eQXtfn38Y","expires_in":7200,"refresh_token":"sqXHHlxV68a_ezXEf95HrR60-1YIjSzDxHwPmsb_ACjUbz-CM1540OInJwwn0ocXM8YyGdKV5BSDzv9ZOsy2kxfadFNrsL1IcuD_Ath1les","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 10:28:00,448] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 10:38:16,847] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 10:38:17,280] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031sLY4c1Wu8rs0hmH1c1kpe5c1sLY4V&state=STATE
+
+
+[2016-11-23 10:38:17,347] InfoLog 
+openidData:{"access_token":"YRuhB10LrF3W7Ap4u1bXsdkSElmG3o3o6CuE1hlv_M3Eeafcnr3cemJ49uEwKoHWThgRN9AEYB38MMeCfL0vU87RiqHxHlQQLBLRT6u-vAA","expires_in":7200,"refresh_token":"6Nl14SNSN2Z3d_NO5MUkGcyQ3CaiBVVyHoPPwutQITWgF2eihU2ZmxcLGF36RP82NDAa8xLNmmDIANFlZOxExpduttauVQ2tFsn5V8xX6v4","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 10:38:17,508] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 10:45:02,611] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 10:45:03,003] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031Ef0iI0Qqnrk2C61jI0BCkiI0Ef0iK&state=STATE
+
+
+[2016-11-23 10:45:03,097] InfoLog 
+openidData:{"access_token":"tZe8cCIXBSExBAAz0V4xmnFXX76N5Duy0LCxP2jTFm08teoFE_BFYtaw--0ZgMscTSOixCwX0ze83-V89SaReIjLvyRb4iS1Z3bXLjf7C3s","expires_in":7200,"refresh_token":"6tNsJYI64CX8xLwHVmc29UyCFv6D-L42-s2P0_43q-_es0240DVZqaNHBO6qTpxtK_dpO8yHYNHKT2LenMfRgq-5eAv4AgDA0HMMc-9Bw6E","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 10:45:03,211] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 10:45:39,884] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 10:45:40,217] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021m10670dlnfJ1dB0970ZjY570m1069&state=STATE
+
+
+[2016-11-23 10:45:40,311] InfoLog 
+openidData:{"access_token":"ra3Ndln3U_zCVBk4Q_sLUir6Ml030HnQJMlM64YARyKxNFJfUP4EFsRWFxSAb_MTzVkFcRe7Fjn-SrI5uekJJ2mS64gA_AVlMr41sNvD23Q","expires_in":7200,"refresh_token":"yODM7pXMd7SZkLbG95SwvvFgO4CbWwvKddyuw__0puoWxkToUFp84fv2OAAAxEo5CZFZ5Zlz1KCzEex03Tas5MMqFwXD92ZY_enEpN7RCqs","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 10:45:40,389] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:04:29,126] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 11:04:29,480] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=0216tG7G0U0I7i2cg77G013y7G06tG7B&state=STATE
+
+
+[2016-11-23 11:04:29,584] InfoLog 
+openidData:{"access_token":"17e5D0IV98GSfINmCyIeYmgHgnj-hjhyUFKuTFHUx6fvoNEKOgbhCMhsIS0gaAkpG_9WmxvdaF0zH4kXP75-UvZY5H3dZSNqUYPULw3Ixxc","expires_in":7200,"refresh_token":"NMt5xu4d3ke42EXx_yWV3-ErYt5lTZiWkX8oQNTEXuKfVKNYW-9i5Ii_eEsgMXjsoso8EGS8W6YgouUzkLyZgt1dqxWSl5qKdRjHg_ru5uQ","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:04:29,687] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:05:43,258] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 11:05:43,593] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011vikG40Uo9EG1bJ6G40jB7G40vikG1&state=STATE
+
+
+[2016-11-23 11:05:43,683] InfoLog 
+openidData:{"access_token":"WU0PCKejLmsGATf4tALABES6yEeVI9xOj0Ds_XOMUhPNHbLz89QIOwye67-Q7pr8CGhaQWjWHGrtE4PumGx8vvNAjFFmhJ_EEWvay2Koy6o","expires_in":7200,"refresh_token":"F3z1nmtMDjIXR1rBZ4BYsrolueL1xJCff-kK5Bpw2RxQExb9HH4-UNGO_Bs-BsZn3mLvnLKz9QBHxyv3BGajBY53r6vaJYvbAloaqCcH2gk","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:05:43,802] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:06:09,444] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 11:06:09,824] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=0210Bi3c2Fv3oS0iGh4c2NE73c20Bi3n&state=STATE
+
+
+[2016-11-23 11:06:09,914] InfoLog 
+openidData:{"access_token":"qOUQkd9Crfj89aIBpnHq-tLPNRzXJTDzqeKiJcFO4VpYywpceBb0gmLVF6FDrjymSz9M7G0qFkydNd9YXIo3rZNOl-ztGx2CK_ukgAlql8Q","expires_in":7200,"refresh_token":"LcYC23N3wBGSww3FEzPTtTdhx56E-t1mRVZn5vL3oLEEw4cgp92DBOZMYsitWz8Ts1WLsWtR8k4Gr5wDLZnzKhxKgZdOLu3u29F9BsIRL_8","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:06:10,013] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:13:41,264] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 11:13:41,588] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=0314d1tX1djvGV0RFWsX1OuMsX14d1tY&state=STATE
+
+
+[2016-11-23 11:13:41,692] InfoLog 
+openidData:{"access_token":"HHmYJZXeF100snE0-TZaYmF_HyrDJiacH9f1hjeWYYCWZl6g-yqxb9nGE-P0fIWT_G7W547u0d5bndUhrx018Yz0l9v22XWyAPr6RIeMMqs","expires_in":7200,"refresh_token":"99VjxaLdrnEkXiKiOjLChXyEwBTfEBrZDamp7IGGzaEGkMaWWJu_G_XsgtXLLH0KENmTiybLyLyCz6faWeemzFP-MFJcBM6gQP8JCmyiegw","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:13:41,779] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:16:06,428] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479871045</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450346246</MenuId>
+</xml>
+
+
+[2016-11-23 11:16:06,510] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479871046</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450346246</MenuId>
+</xml>
+
+
+[2016-11-23 11:19:28,312] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/RequestApi
+
+
+[2016-11-23 11:19:28,672] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031nG9ho17AYsm0ucoho1h1aho1nG9hO&state=STATE
+
+
+[2016-11-23 11:19:28,763] InfoLog 
+openidData:{"access_token":"36De-FKtvzzZ3NXXqxLR851lZi124N53zIDKh_YCVWJd4A-ppI01XUUzjet9hbYjBvABLFs4m7pSS83M4Rb-OrFtX6Sb8P9ST7T4A5OomSs","expires_in":7200,"refresh_token":"9kz5MhB2CFau-td_t_CCo-K775sjYV-h8u3WQdfRr5meR8UqcS_vdW0sh4castEiwHwz1AGBd-eaHXLpw5HVwcH_7Ey0FgYAI-01XC9CUlc","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:19:28,894] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:24:23,976] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479871539</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[哈哈]]></Content>
+<MsgId>6355999862737006246</MsgId>
+</xml>
+
+
+[2016-11-23 11:24:34,784] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479871554</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[投票]]></Content>
+<MsgId>6355999927161515703</MsgId>
+</xml>
+
+
+[2016-11-23 11:24:38,278] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 11:24:38,704] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021GdZeo16SOqm0oROeo1cUTeo1GdZeO&state=STATE
+
+
+[2016-11-23 11:24:38,751] InfoLog 
+openidData:{"access_token":"DoiXli9_dUa87XltTbsyRyZi9UhJXO-uxoainLjjbSYqU4HMWZcSk0-7mVNOg-k-STS6EEW5pqeS3ULJeonmUkvnjs82Oo2p3-5wFmSVsMA","expires_in":7200,"refresh_token":"mB2XlEl7ftEp-bqEdZtvj8R_55Y8gB7k5MHnaTSaN5XIxonZ_pPo0ttRJxsMAcC-12zEq9g-7NYnFQ-QiBHnthfoCz9EKx8MkLwmfVH2atQ","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:24:38,851] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:25:31,109] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline
+
+
+[2016-11-23 11:25:41,620] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline
+
+
+[2016-11-23 11:25:53,434] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline&isappinstalled=0
+
+
+[2016-11-23 11:25:57,936] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwPYuwWvcNpgSTKVcQkW_Oe4]]></FromUserName>
+<CreateTime>1479871637</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+
+[2016-11-23 11:26:06,251] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline
+
+
+[2016-11-23 11:26:06,519] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031ZmEjs08QDxb1obAns0LxMjs0ZmEje&state=STATE
+
+
+[2016-11-23 11:26:06,649] InfoLog 
+openidData:{"access_token":"nDw0efkBE4cJYpDksztzQalWNvh1HS6Ioh4Pe5NP_UQwrRXFGDUJ_zl3RAXEoxPQSxWj1OXHkHsnSQvln7_E0j9D-t0qfSRyxskYK5zvVTU","expires_in":7200,"refresh_token":"RCDLXaNcGTJzox1zxK6FbZccG-wz5eHm9p-LseJjAJ3gMr3qCngiHHHAlFdYim8JmzFL7ek8Wzu_BkXtSNvneiJxunmvYk30xtJrvnxTpjA","openid":"oNG-lwPYuwWvcNpgSTKVcQkW_Oe4","scope":"snsapi_base"}
+
+
+[2016-11-23 11:26:06,759] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwPYuwWvcNpgSTKVcQkW_Oe4","nickname":"会兵","sex":1,"language":"zh_CN","city":"无锡","province":"江苏","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22exxvSoicTB0mtXiaDRfIsI2tTtAZYUg5pVzDX1COPicqA3yEzfBvLbFfI5xtqYwdE9amUtciczQfv8Hg\/0","subscribe_time":1479871637,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 11:26:11,499] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline&isappinstalled=0
+
+
+[2016-11-23 11:26:20,702] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline
+
+
+[2016-11-23 11:31:29,528] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?from=timeline
+
+
+[2016-11-23 11:31:29,899] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=031AmHC11lOxgL17y6D11PRKC11AmHCe&state=STATE
+
+
+[2016-11-23 11:31:30,005] InfoLog 
+openidData:{"access_token":"IURhcnUag3YclZDWBWZhDef6g2GFAnBiEvcMk3-SEaEaAsFVQTSLYABX2xr5zmWxs-aupjsik1Imk_i6BiEUyqAqVpqUneD0y_quRjw6FyI","expires_in":7200,"refresh_token":"bwbR95ubXPvY6_aaHkeiWqjhom1XwamOSJTYnKeRwMtZAi36q1AN_agWjWR9xRXJ-FodXb6EbwM80PPm1lVjn1PH_KzzsGyBQ1uNCkX4Bbg","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 11:31:30,097] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:26:52,784] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/wxvote/requestapi
+
+
+[2016-11-23 12:26:53,267] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011TYVJz0L2VXi1rzOKz0zndKz0TYVJl&state=STATE
+
+
+[2016-11-23 12:26:53,330] InfoLog 
+openidData:{"access_token":"AmTOIvtis9xNhqwctzGwUdB5mptL3YOms67YonNni9iSt-kXXjVKVgalViXqZw-SgQp0E3RgDbIAMBOW0aRmyGQVAOnF7fS1fO54X_y9WqY","expires_in":7200,"refresh_token":"lQjIzpHQV2x4XVoZkst9KV_ci5O0w8r7pd4bbqO8DnlHusgWYNwuZfmnMPMFMbubYlkb8vAFNvTDLffR_6ipg90JvtgvbcQFP4i4xm36EEo","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:26:53,486] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:39:38,636] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 12:39:39,263] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011A5zjC10wxu005O7lC1mbCjC1A5zjt&state=STATE
+
+
+[2016-11-23 12:39:39,314] InfoLog 
+openidData:{"access_token":"zEtvk7HPaydGwT7i3Tb9hdl4pbYHv82WuTFPwTRPMQQCRBXxqfEVLSOT2ONwnECMzFT6yeb-CplOLRLFVE7c2GLsa6cKrtFqw6MJwI0shSQ","expires_in":7200,"refresh_token":"2JH-uC0myQ2DLvlSW2jIZQtGzvtrLw1502Ou4yUmYG9U_qxtLiY9qEkdbgvAXiLg9OVgvjB9QmG_aYKiGz4xiYXhFZbvnW9l31r72p_FeCI","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:39:39,473] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:40:00,931] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 12:40:01,292] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011jX9sV131qDT0ApMrV1xCesV1jX9sJ&state=STATE
+
+
+[2016-11-23 12:40:01,370] InfoLog 
+openidData:{"access_token":"au1SQzXsJzeGZ3eUJqDUtDqldLXHVFWbc1qZLzwkltjLYi0PUds_6Ov-ciLlwRLjcJA1qa7c_apNJCvOjJ8MgfWbgaCBWJymtD6ZQbZf_Gg","expires_in":7200,"refresh_token":"qOUQkd9Crfj89aIBpnHq-pNuvclzqoNZIv601_fqBhKv2dfa4h_50Gyc_ka5D6mjnSfN7TK_62lTxjZ8LCbIUkQ2DnyP8AR1ShJaIjEi1lA","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:40:01,466] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:40:08,352] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:40:32,472] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:40:43,360] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:47:25,733] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 12:47:26,293] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021v10ZK0eTUF42LtN0L0J3ZYK0v10ZH&state=STATE
+
+
+[2016-11-23 12:47:26,335] InfoLog 
+openidData:{"access_token":"Doouk-tjwfCuz9aMgsX9ClTtCni0kYbem0NpUwiraLOwiA6-TQeT2s5KGPjkFIwnLyNEUaw3-zaqvlCLXctAy9e0Vf4QIN4MVK-X8jBfS8Y","expires_in":7200,"refresh_token":"aHG1q0xzyQ_o5B94ilUMqfsl_PpE8zQmR-_U7d46lZSBYN3_a486cYxMGa3Rj9jRShFkSb5G-tO6EEbtRN2ApzPFAWtq-AuQmqWt6V84I5s","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:47:26,479] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:47:31,906] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:47:49,389] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 12:47:49,787] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=001DrrK31vLg7N1G1FJ31tpqK31DrrKO&state=STATE
+
+
+[2016-11-23 12:47:49,867] InfoLog 
+openidData:{"access_token":"zEtvk7HPaydGwT7i3Tb9hQ34dHde0DPQanGkSCKjCJ6EvjCXVt79fGACNaf6Ngf4wJIa3Kvb9O3XJZqcd1v-HQur1UKpr43gMfbOIhgqbkE","expires_in":7200,"refresh_token":"sRWWB9Ps-fqY7ARLmmR2JsQD9gd2NrNzrbrDpSLO4pN4Im4vb21C1V11ba0e-nSfB6UVVOxjGAX42xoVE36hHn4tU8AY6eflgGTHYZFl1gg","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:47:49,929] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:47:54,542] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:48:39,957] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:49:09,549] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:49:18,343] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 12:49:18,602] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=011mE0WM0fUFL626OQUM0wt0WM0mE0WH&state=STATE
+
+
+[2016-11-23 12:49:18,660] InfoLog 
+openidData:{"access_token":"JhQYI4zHzQ592Mwi92EJhqFC_1ZeOpZ_yqfmm3gJ0dWBb0vm-QOVe0oJjQmwvY6uwQWz2-AtwU6BOgXOZsHGgTkcQ99b1a-xblQOvMcC1GE","expires_in":7200,"refresh_token":"v1J4tDak0aP2OmXlkOfA580-ZdqfIfMr41_39AaGt2qxI2xljJE-LLuRf66gODG5OW350AjKWwXq7zu4uNlPn919so_U_zfsj__teB4Ti7o","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:49:18,789] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:49:26,007] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:49:41,897] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:49:46,046] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:49:49,941] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 12:50:01,442] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index
+
+
+[2016-11-23 12:50:01,676] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/Index?code=021DqXgp0v0E5r1Wnskp0AeXgp0DqXgQ&state=STATE
+
+
+[2016-11-23 12:50:01,776] InfoLog 
+openidData:{"access_token":"y1sEuPl37BDOO-LR_FuPMX4dbynMkEsfgv1OQv7LxdvcR-0U4DQiEBRAXGmfDjXyuissTN9vGbtQZWfGXfn6bHfPM0eSnQEZKQmYmSvzF-M","expires_in":7200,"refresh_token":"wb-XHuil1yqK9bfPmpth4H8FX59Z_dCxFT5v82B_EccMFq7C6mkw5XI-HKdC2RUOt1pa6as_JbHjxip11vVzZ0JyW2iiwTeWKWK3_zCbfEI","openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","scope":"snsapi_base"}
+
+
+[2016-11-23 12:50:01,868] InfoLog 
+userinfodata:{"subscribe":1,"openid":"oNG-lwCq_y7wtCMSbF_4PtEvTfbQ","nickname":"123","sex":1,"language":"zh_CN","city":"","province":"","country":"百慕大","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/LHdtlaBo22ftLDlENMnJ7T84z29dUzKJT8ibysEUVNSx2HO0mnDD6tmdfDa5RU3giagyQUvORHbichMFHb8koX5WK1W7on5EJZR\/0","subscribe_time":1479287229,"remark":"","groupid":0,"tagid_list":[]}
+
+
+[2016-11-23 12:50:14,948] InfoLog 
+当前url=http://cs.didizufang.com.cn:9002/WxVote/SubmitVote
+
+
+[2016-11-23 13:04:37,911] InfoLog 
+{"button":[{"name":"??官网","type":"view","key":"Home","url":"http://www.didizufang.com.cn","media_id":null,"sub_button":null},{"name":"租房app","type":"view","key":"App","url":"http://a.app.qq.com/o/simple.jsp?pkgname=com.example.mydidizufang","media_id":null,"sub_button":null},{"name":"投票","type":"view","key":"menu2","url":"http://cs.didizufang.com.cn:9002/vote/RequestApi","media_id":null,"sub_button":null}]}
+
+
+[2016-11-23 13:36:54,178] InfoLog 
+{"errcode":0,"errmsg":"ok"}
+
+
+[2016-11-23 13:37:23,445] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879522</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.didizufang.com.cn]]></EventKey>
+<MenuId>450346246</MenuId>
+</xml>
+
+
+[2016-11-23 13:39:58,157] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:40:15,512] InfoLog 
+{"errcode":0,"errmsg":"ok"}
+
+
+[2016-11-23 13:40:41,926] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879721</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:40:44,711] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879723</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:41:48,932] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879788</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:42:19,828] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879818</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.didizufang.com.cn]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:42:22,720] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879821</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:42:25,200] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879824</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:42:33,967] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879833</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://a.app.qq.com/o/simple.jsp?pkgname=com.example.mydidizufang]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:42:36,983] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879836</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/RequestApi]]></EventKey>
+<MenuId>450823490</MenuId>
+</xml>
+
+
+[2016-11-23 13:42:42,954] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479879842</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/index]]></EventKey>
+<MenuId>450823679</MenuId>
+</xml>
+
+
+[2016-11-23 13:47:07,287] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479880106</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/index]]></EventKey>
+<MenuId>450823679</MenuId>
+</xml>
+
+
+[2016-11-23 13:49:26,424] InfoLog 
+{"errcode":0,"errmsg":"ok"}
+
+
+[2016-11-23 14:46:00,509] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883639</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/index]]></EventKey>
+<MenuId>450823679</MenuId>
+</xml>
+
+
+[2016-11-23 14:46:04,299] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/vote/index]]></EventKey>
+<MenuId>450823679</MenuId>
+</xml>
+
+
+[2016-11-23 14:46:11,612] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883650</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVote/Index]]></EventKey>
+<MenuId>450824053</MenuId>
+</xml>
+
+
+[2016-11-23 14:50:00,258] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883879</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[呵呵]]></Content>
+<MsgId>6356052862633447777</MsgId>
+</xml>
+
+
+[2016-11-23 14:50:10,182] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883889</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[活动]]></Content>
+<MsgId>6356052905583120742</MsgId>
+</xml>
+
+
+[2016-11-23 14:50:13,474] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883892</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[头牌]]></Content>
+<MsgId>6356052918468022634</MsgId>
+</xml>
+
+
+[2016-11-23 14:50:17,779] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1479883896</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[投票]]></Content>
+<MsgId>6356052935647891822</MsgId>
+</xml>
+

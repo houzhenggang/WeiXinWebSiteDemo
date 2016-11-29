@@ -1,0 +1,121 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>投票系统</title>
+<link href="__TMPL__Public/css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="__TMPL__Public/css/style.css" rel="stylesheet" type="text/css">
+<link href="__TMPL__Public/css/animate.css" rel="stylesheet" type="text/css">
+<link href="__TMPL__Public/css/sweet-alert.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="__TMPL__Public/js/respond.min.js"></script>
+<script src="__TMPL__Public/js/jquery.min.js"></script>
+<script src="__TMPL__Public/js/sweet-alert.min.js"></script>
+
+</head>
+<body style="background:#c30d23">
+
+<div id="audio_btn" class="video_exist off play_yinfu" style="display: block;">
+    <div id="yinfu" class="rotate"></div>
+    <audio loop src="__TMPL__Public/music/bg_2.mp3" id="media" autoplay preload="preload"></audio>
+</div>
+
+<div id="content_title1" class="fluid clearfix" >
+    <div class="content_title">
+    	参与投票
+    </div>
+</div>
+
+<div class="gridContainer clearfix">
+      <div id="search"  class="fluid bounceIn animated" >
+      	<form action="{:U('index/content')}" method="post">
+        <input type="text" placeholder="输入您想投票的姓名或编号" class="search_text" name="search"><input type="submit" class="search" value="搜索">
+        </form>
+      </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<foreach name="userinfo" item="item">
+<div id="content_list" class="gridContainer clearfix bounceInDown animated">
+	<div class="content_list_li">
+    	<div class="content_list_li_left">
+        	<span><img src="{$item.headimgurl}" ></span>
+        </div>
+        <div class="content_list_li_right">
+        	<div class="content_list_li_right_li"><strong>编号：</strong>{$item.user_number}</div>
+            <div class="content_list_li_right_li"><strong>姓名：</strong>{$item.name}</div>
+            <div class="content_list_li_right_li_a">
+            	
+            	
+            	
+            	<a class="btn to t1" href="javascript:void();"  user_id="{$item.id}" id="isballot_yes{$item.id}" <?php if($item['is_ballot'] == 2){?>style="display:none;"<?php }?>>投我吧</a>
+            	
+            	<a class="btn to on" href="javascript:void();" user_id="{$item.id}" id="isballot_no{$item.id}" <?php if($item['is_ballot'] == 1){?>style="display:none;"<?php }?>>已投票</a>
+            	
+            	
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+</foreach>
+<SCRIPT type="text/javascript">
+$(".btn").click(function(){
+	var user_id = $(this).attr("user_id");
+	$.ajax({
+	     type: "post",
+	     url: "{:U('index/add_enrolling')}", 
+	     data: "user_id="+user_id,
+	     success: function(msg) {
+	     	if(msg == 1){
+	     		//alert("投票成功！！");
+	     		$("#isballot_no"+user_id).show();
+	     		$("#isballot_yes"+user_id).hide();
+	     		swal('投票成功!', '非常感谢,么么哒！', 'success');
+	     		
+	     	}else if(msg == 2){
+	     		//alert("对不起，投票失败！！");
+	     		swal('对不起!','投票失败！！','error');
+	     	}else if(msg == 3){
+	     		//alert("对不起，投票失败，你投票数已达上线！！");
+	     		swal('投票失败!','你投票数已达上线！！','error');
+	     	}else if(msg == 4){
+	     		//alert("对不起，投票失败，不能重复投票！！");
+	     		swal('您已为我投票，非常感谢！');
+	     	}
+	     }
+	  });
+	
+});
+</SCRIPT>
+<script>
+$("#audio_btn").click(function(){    
+    var music = document.getElementById("media");     
+    if(music.paused){    
+        music.play();
+		$("#yinfu").addClass('rotate');
+		$("#audio_btn").addClass('play_yinfu');
+        $("#music_btn").attr("src","play.gif");    
+    }else{    
+        music.pause();  
+		$("#yinfu").removeClass('rotate');
+		$("#audio_btn").removeClass('play_yinfu');  
+        $("#music_btn").attr("src","pause.gif");    
+    }    
+});    
+</script>
+<div class="clearfix" style="height:1em;"></div>
+<div class="pages">{$page}</div>
+
+</body>
+</html>

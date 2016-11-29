@@ -1,0 +1,146 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="renderer" content="webkit">
+    <title>风采展示</title>
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.5.0/css/amazeui.min.css" />
+    <style>
+        .middle-img {
+            position: absolute;
+            left: 259px;
+            top: 0px;
+            width: 40px;
+        }
+
+        .up-img {
+            position: absolute;
+            top: -40px;
+            left: 261px;
+            width: 40px;
+        }
+
+        .down-img {
+            position: absolute;
+            top: 40px;
+            left: 257px;
+            width: 40px;
+        }
+
+        .left-img {
+            position: absolute;
+            left: 218px;
+            width: 40px;
+        }
+
+        .right-img {
+            position: absolute;
+            left: 300px;
+            width: 40px;
+        }
+        @@media screen and (max-width:450px) {
+            .middle-img {
+                position: absolute;
+                left: 259px;
+                top: 0px;
+                width: 40px;
+                display: none;
+            }
+
+            .up-img {
+                position: absolute;
+                top: -40px;
+                left: 261px;
+                width: 40px;
+                display: none;
+            }
+
+            .down-img {
+                position: absolute;
+                top: 40px;
+                left: 257px;
+                width: 40px;
+                display: none;
+            }
+
+            .left-img {
+                position: absolute;
+                left: 218px;
+                width: 40px;
+                display: none;
+            }
+
+            .right-img {
+                position: absolute;
+                left: 300px;
+                width: 40px;
+                display: none;
+            }
+
+            .rotate_jia{
+                display: none;
+            }.rotate_div{
+                display: none;
+            }.rotate_jian{
+                display: none;
+            }
+        }
+        	#cansaixuanyan{ text-align: center;
+							clear: both;
+							margin-left: 0;
+							width: 100%;
+							float: left;
+							display: block;}
+			#cansaixuanyan .title{  font-size: 1.2em;
+									font-weight: bolder;
+									letter-spacing: 2px;
+									color: #ff5600;
+									background:url(~/content/toupiao/images/duihaukang.png) no-repeat center center;
+									padding:16%;
+								} 
+    </style>
+</head>
+<body>
+    @{
+        @model WxModel.DtoModel.DeptShow
+    }
+<div id="cansaixuanyan">
+    <div class="title">
+        @Html.Raw(Model.DeptSummary)
+    </div>
+</div>
+<ul data-am-widget="gallery" class="am-gallery am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }">
+
+    @{
+        foreach (var item in Model.ImgUrl)
+        {
+            <li style="width: 80%; text-align: center; margin-left: 10%;">
+                <div class="am-gallery-item">
+                    <a href="javascript:void(0);" class="">
+                        <img src="@(item)" alt=""/>
+                        <h3 class="am-gallery-title"></h3>
+                        <div class="am-gallery-desc"></div>
+                    </a>
+                </div>
+            </li>
+        }
+
+    }
+
+</ul>
+</body>
+    </html>

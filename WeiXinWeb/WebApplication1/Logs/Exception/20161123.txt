@@ -1,0 +1,70 @@
+
+[2016-11-23 12:40:08,402] Exception 
+System.FormatException: 日历 System.Globalization.GregorianCalendar 中不支持该字符串所表示的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 WxAppService.VoteCountAppService.IsVotedToday(Int32 deptId, String openId) 位置 E:\Work\WebApplication1\WxAppService\VoteCountAppService.cs:行号 30
+   在 WebApplication1.Controllers.WxVoteController.SubmitVote() 位置 E:\Work\WebApplication1\WebApplication1\Controllers\WxVoteController.cs:行号 211
+
+
+[2016-11-23 12:41:22,608] Exception 
+System.FormatException: 日历 System.Globalization.GregorianCalendar 中不支持该字符串所表示的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 WxAppService.VoteCountAppService.IsVotedToday(Int32 deptId, String openId) 位置 E:\Work\WebApplication1\WxAppService\VoteCountAppService.cs:行号 30
+   在 WebApplication1.Controllers.WxVoteController.SubmitVote() 位置 E:\Work\WebApplication1\WebApplication1\Controllers\WxVoteController.cs:行号 211
+
+
+[2016-11-23 12:41:22,611] Exception 
+System.FormatException: 日历 System.Globalization.GregorianCalendar 中不支持该字符串所表示的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 WxAppService.VoteCountAppService.IsVotedToday(Int32 deptId, String openId) 位置 E:\Work\WebApplication1\WxAppService\VoteCountAppService.cs:行号 30
+   在 WebApplication1.Controllers.WxVoteController.SubmitVote() 位置 E:\Work\WebApplication1\WebApplication1\Controllers\WxVoteController.cs:行号 211
+
+
+[2016-11-23 12:47:31,928] Exception 
+System.FormatException: 日历 System.Globalization.GregorianCalendar 中不支持该字符串所表示的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 WxAppService.VoteCountAppService.IsVotedToday(Int32 deptId, String openId) 位置 E:\Work\WebApplication1\WxAppService\VoteCountAppService.cs:行号 31
+   在 WebApplication1.Controllers.WxVoteController.SubmitVote() 位置 E:\Work\WebApplication1\WebApplication1\Controllers\WxVoteController.cs:行号 211
+
+
+[2016-11-23 12:48:39,957] Exception 
+System.FormatException: 日历 System.Globalization.GregorianCalendar 中不支持该字符串所表示的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 WxAppService.VoteCountAppService.IsVotedToday(Int32 deptId, String openId) 位置 E:\Work\WebApplication1\WxAppService\VoteCountAppService.cs:行号 31
+   在 WebApplication1.Controllers.WxVoteController.SubmitVote() 位置 E:\Work\WebApplication1\WebApplication1\Controllers\WxVoteController.cs:行号 211
+
+
+[2016-11-23 12:48:39,958] Exception 
+System.FormatException: 日历 System.Globalization.GregorianCalendar 中不支持该字符串所表示的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 WxAppService.VoteCountAppService.IsVotedToday(Int32 deptId, String openId) 位置 E:\Work\WebApplication1\WxAppService\VoteCountAppService.cs:行号 31
+   在 WebApplication1.Controllers.WxVoteController.SubmitVote() 位置 E:\Work\WebApplication1\WebApplication1\Controllers\WxVoteController.cs:行号 211
+
+
+[2016-11-23 13:32:35,660] Exception 
+System.ArgumentException: 该键不符合 JQuery 语法，因为它缺少右括号。
+参数名: key
+   在 System.Web.Mvc.NameValueCollectionValueProvider.NormalizeJQueryToMvc(String key)
+   在 System.Web.Mvc.NameValueCollectionValueProvider.InitializeCollectionValues()
+   在 System.Web.Mvc.NameValueCollectionValueProvider.get_PrefixContainer()
+   在 System.Web.Mvc.NameValueCollectionValueProvider.ContainsPrefix(String prefix)
+   在 System.Web.Mvc.ValueProviderCollection.ContainsPrefix(String prefix)
+   在 System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+[2016-11-23 13:34:41,319] Exception 
+System.ArgumentException: 该键不符合 JQuery 语法，因为它缺少右括号。
+参数名: key
+   在 System.Web.Mvc.NameValueCollectionValueProvider.NormalizeJQueryToMvc(String key)
+   在 System.Web.Mvc.NameValueCollectionValueProvider.InitializeCollectionValues()
+   在 System.Web.Mvc.NameValueCollectionValueProvider.get_PrefixContainer()
+   在 System.Web.Mvc.NameValueCollectionValueProvider.ContainsPrefix(String prefix)
+   在 System.Web.Mvc.ValueProviderCollection.ContainsPrefix(String prefix)
+   在 System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+

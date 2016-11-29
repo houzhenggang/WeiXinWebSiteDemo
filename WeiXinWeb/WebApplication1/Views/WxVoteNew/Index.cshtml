@@ -1,0 +1,80 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutNew.cshtml";
+    ViewBag.Title = "投票";
+}
+
+<div id="audio_btn" class="video_exist off play_yinfu" style="display: block;">
+    <div id="yinfu" class="rotate"></div>
+    <audio loop src="~/content/toupiao/music/bg_2.mp3" id="media" autoplay preload="preload"></audio>
+</div>
+
+<div id="title1" class="fluid fadeInLeft animated" style="display: block;">
+    <div id="div1" class="">
+        <img src="~/content/toupiao/images/title_1.png" style="width: 58%;">
+    </div>
+
+</div>
+
+<div class="gridContainer clearfix">
+    <div id="div2" class="fluid bounceInLeft animated">
+        <img src="~/content/toupiao/images/log_1.png" style="width: 88%;">
+    </div>
+    <div id="div2_1" class="fluid bounceInRight animated">
+        <img src="~/content/toupiao/images/log_2.png" style="width: 88%;">
+    </div>
+</div>
+
+
+<div class="gridContainer clearfix">
+    <div id="div3" class="fluid flipInX animated">
+        <img src="~/content/toupiao/images/title_3.png" style="width:80%;">
+    </div>
+</div>
+
+<div class="gridContainer clearfix" style="z-index:99; margin-bottom:2%;">
+    <div id="div4" class="fluid bounceIn animated" style="z-index:999;">
+        <a href="/WxVoteNew/VoteHome?openId=@ViewBag.OpenId" class="go btn" style="z-index:9999;">参与投票活动</a>
+    </div>
+</div>
+
+<div class="gridContainer clearfix" style="z-index:99;">
+    <div id="div4" class="fluid bounceIn animated" style="z-index:999;animation-delay:4s;
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	z-index:10;">
+        <a class="go btn" style="z-index:9999;" onClick="swal('投票活动规则', '活动开始时间：2016.12.1 ; 活动截止时间：2016.12.8 ; 投票仅通过“嘀嘀租房”微信公众号进行 ; 每个微信号每天只能投1票 ; 严禁使用恶意作弊行为，一经查证，取消获奖资格。')">投票活动规则</a>
+    </div>
+</div>
+@section scripts
+{
+    <script>
+        var openId = '@ViewBag.OpenId';
+
+        $(function () {
+
+            if (openId == '0') {
+                //提示
+                layer.open({
+                    type: 1,
+                    content: '<img class="c-pic" src="../Content/didizufang/images/ddzf.jpg" />',
+                    anim: 'up',
+                    style: 'position:fixed; left:0; top:0; width:100%; height:100%; border: none; -webkit-animation-duration: .5s; animation-duration: .5s;'
+                    //, time: 2 //2秒后自动关闭
+                });
+            }
+        });
+
+        function wxVote() {
+            wxUtils.Ajax('/WxVoteNew/SubmitVote', { deptId: 1, openId: openId }, 'post', 'json', function (res) {
+                //提示
+                layer.open({
+                    content: res.Msg
+                    , skin: 'msg'
+                    , time: 3 //2秒后自动关闭
+                });
+            });
+        }
+
+    </script>
+}

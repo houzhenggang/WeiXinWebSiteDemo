@@ -1,0 +1,166 @@
+
+[2016-11-19 19:26:24,112] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlSugar.SqlHelper.CheckConnect()
+   在 SqlSugar.SqlHelper.GetDataTable(String sql, SqlParameter[] pars)
+   在 SqlSugar.SqlSugarTool.GetIdentitiesKeyByTableName(SqlSugarClient db, String tableName)
+   在 SqlSugar.SqlSugarClient.Insert[T](T entity, Boolean isIdentity)
+   在 WxAppService.DbContext.SqlRepository`1.Add(T entity, Boolean isIdentity) 位置 E:\CodeSpace\WebApplication1\WxAppService\DbContext\SqlRepository.cs:行号 31
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 26
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+ClientConnectionId:9bda569b-9993-4cda-8fe1-209f5b0b9159
+Error Number:18456,State:1,Class:14
+
+[2016-11-19 19:26:41,381] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlSugar.SqlHelper.CheckConnect()
+   在 SqlSugar.SqlHelper.GetDataTable(String sql, SqlParameter[] pars)
+   在 SqlSugar.SqlSugarTool.GetIdentitiesKeyByTableName(SqlSugarClient db, String tableName)
+   在 SqlSugar.SqlSugarClient.Insert[T](T entity, Boolean isIdentity)
+   在 WxAppService.DbContext.SqlRepository`1.Add(T entity, Boolean isIdentity) 位置 E:\CodeSpace\WebApplication1\WxAppService\DbContext\SqlRepository.cs:行号 31
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 26
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+ClientConnectionId:8e60a6e0-0fb1-4334-a613-f98bf96b8944
+Error Number:18456,State:1,Class:14
+
+[2016-11-19 19:28:04,938] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 27
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 20:07:40,880] Exception 
+error
+
+SqlSugar.SqlSugarException: 错误信息          ： 【不能将值 NULL 插入列 'ImgSummary'，表 'WeiXinWeb.dbo.DeptImg'；列不允许有 Null 值。INSERT 失败。
+语句已终止。】
+ORM生成的Sql ： 【insert into [DeptImg] ([Id],[ImgName],[ImgSummary],[ImgUrl],[ImgType],[InsertDate] ) values(@Id,@ImgName,@ImgSummary,@ImgUrl,@ImgType,@InsertDate);select 'true';】
+函数参数         ： 【{"Id":0,"ImgName":"f969516723334068ab0e659d0421766a","ImgSummary":null,"ImgUrl":"/UploadFile/Image/DeptImg/20161119/f969516723334068ab0e659d0421766a","ImgType":1,"InsertDate":"\/Date(1479557259849)\/"}】
+
+   在 SqlSugar.SqlSugarClient.Insert[T](T entity, Boolean isIdentity)
+   在 WxAppService.DbContext.SqlRepository`1.InsertEntity(T entity) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DbContext\SqlRepository.cs:行号 39
+   在 WxAppService.DeptImgAppService.AddDeptImg(String imgName, String imgUrl, Int32 imgType) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptImgAppService.cs:行号 29
+   在 WebApplication1.Controllers.UploadFileController.UploadDeptImg(Int32 pId) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Controllers\UploadFileController.cs:行号 92
+
+[2016-11-19 20:17:01,750] Exception 
+error
+
+System.InvalidCastException: 指定的转换无效。
+   在 WxAppService.DeptImgAppService.AddDeptImg(String imgName, String imgUrl, Int32 imgType)
+   在 WebApplication1.Controllers.UploadFileController.UploadDeptImg(Int32 pId) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Controllers\UploadFileController.cs:行号 92
+
+[2016-11-19 20:25:04,703] Exception 
+error
+
+System.InvalidCastException: 指定的转换无效。
+   在 WxAppService.DeptImgAppService.AddDeptImg(String imgName, String imgUrl, Int32 imgType) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptImgAppService.cs:行号 31
+   在 WebApplication1.Controllers.UploadFileController.UploadDeptImg(Int32 pId) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Controllers\UploadFileController.cs:行号 92
+
+[2016-11-19 20:27:05,304] Exception 
+error
+
+System.InvalidCastException: 指定的转换无效。
+   在 WxAppService.DeptImgAppService.AddDeptImg(String imgName, String imgUrl, Int32 imgType) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptImgAppService.cs:行号 31
+   在 WebApplication1.Controllers.UploadFileController.UploadDeptImg(Int32 pId) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Controllers\UploadFileController.cs:行号 92
+
+[2016-11-19 21:06:15,142] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SqlSugar.SqlHelper.CheckConnect()
+   在 SqlSugar.SqlHelper.RollbackTran()
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 46
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:08:16,147] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SqlSugar.SqlHelper.CheckConnect()
+   在 SqlSugar.SqlHelper.RollbackTran()
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 46
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:13:01,847] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SqlSugar.SqlHelper.CheckConnect()
+   在 SqlSugar.SqlHelper.RollbackTran()
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 48
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:19:57,441] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 54
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:22:12,526] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 55
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:24:03,016] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 55
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:35:06,874] Exception 
+error
+
+SqlSugar.SqlSugarException: 错误信息          ： 【不能将值 NULL 插入列 'Name'，表 'WeiXinWeb.dbo.Department'；列不允许有 Null 值。INSERT 失败。
+语句已终止。】
+ORM生成的Sql ： 【insert into [Department] ([Name],[DeptType],[DeptSummary],[ParentId],[InsertDate] ) values(@Name,@DeptType,@DeptSummary,@ParentId,@InsertDate);select SCOPE_IDENTITY();】
+函数参数         ： 【{"Id":0,"Name":null,"DeptType":0,"DeptSummary":"的撒               \n            ","ParentId":0,"InsertDate":"\/Date(1479562506307)\/"}】
+
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 56
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:35:32,843] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 56
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-19 21:39:47,450] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 e:\work\wxWeb\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 56
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\work\wxWeb\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46

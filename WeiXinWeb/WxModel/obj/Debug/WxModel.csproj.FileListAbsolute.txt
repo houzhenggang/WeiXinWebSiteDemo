@@ -1,0 +1,12 @@
+E:\CodeSpace\WebApplication1\WxModel\bin\Debug\WxModel.dll
+E:\CodeSpace\WebApplication1\WxModel\bin\Debug\WxModel.pdb
+E:\CodeSpace\WebApplication1\WxModel\obj\Debug\WxModel.dll
+E:\CodeSpace\WebApplication1\WxModel\obj\Debug\WxModel.pdb
+E:\work\wxWeb\WebApplication1\WxModel\bin\Debug\WxModel.dll
+E:\work\wxWeb\WebApplication1\WxModel\bin\Debug\WxModel.pdb
+E:\work\wxWeb\WebApplication1\WxModel\obj\Debug\WxModel.dll
+E:\work\wxWeb\WebApplication1\WxModel\obj\Debug\WxModel.pdb
+E:\Work\WebApplication1\WxModel\bin\Debug\WxModel.dll
+E:\Work\WebApplication1\WxModel\bin\Debug\WxModel.pdb
+E:\Work\WebApplication1\WxModel\obj\Debug\WxModel.dll
+E:\Work\WebApplication1\WxModel\obj\Debug\WxModel.pdb

@@ -1,0 +1,68 @@
+
+[2016-11-25 09:37:19,211] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480037919</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ͶƱ]]></Content>
+<MsgId>6356714459395770332</MsgId>
+</xml>
+
+
+[2016-11-25 13:42:55,861] InfoLog 
+{"errcode":0,"errmsg":"ok"}
+
+
+[2016-11-25 13:51:40,933] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480053184</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-25 13:52:32,728] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480053235</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-25 13:55:34,562] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480053417</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://a.app.qq.com/o/simple.jsp?pkgname=com.example.mydidizufang]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-25 16:08:44,948] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480061407</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-25 16:09:07,294] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480061430</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ͶƱ]]></Content>
+<MsgId>6356815438371876655</MsgId>
+</xml>
+

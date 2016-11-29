@@ -1,0 +1,101 @@
+
+[2016-11-18 11:44:38,865] Exception 
+error
+
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 SqlSugar.SqlHelper..ctor(String connectionString)
+   在 SqlSugar.SqlSugarClient..ctor(String connectionString)
+   在 WxAppService.DbContext.SqlDbContext.GetInstance() 位置 E:\CodeSpace\WebApplication1\WxAppService\DbContext\SqlDbContext.cs:行号 14
+   在 WxAppService.DbContext.SqlRepository`1..ctor() 位置 E:\CodeSpace\WebApplication1\WxAppService\DbContext\SqlRepository.cs:行号 17
+   在 WxAppService.DeptVoteAppService..ctor()
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.Index() 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 18
+
+[2016-11-18 14:39:33,140] Exception 
+error
+
+System.FormatException: 输入的不是有效的 Base-64 字符串，因为它包含非 Base-64 字符、两个以上的填充字符，或者填充字符间包含非法字符。
+   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 WebApplication1.Utils.ImgHelper.Base64ToImg(String base64, String filePath) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Utils\ImgHelper.cs:行号 15
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 49
+
+[2016-11-18 14:44:52,389] Exception 
+error
+
+System.Runtime.Serialization.SerializationException: 输入流是无效的二进制格式。开始内容(以字节为单位)是: FF-D8-FF-E0-00-10-4A-46-49-46-00-01-01-00-00-01-00...
+   在 System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read(__BinaryParser input)
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord()
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 WebApplication1.Utils.ImgHelper.Base64ToImg(String base64, String filePath) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Utils\ImgHelper.cs:行号 24
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 49
+
+[2016-11-18 14:49:23,169] Exception 
+error
+
+System.Runtime.Serialization.SerializationException: 输入流是无效的二进制格式。开始内容(以字节为单位)是: FF-D8-FF-E0-00-10-4A-46-49-46-00-01-01-00-00-01-00...
+   在 System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read(__BinaryParser input)
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord()
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 WebApplication1.Utils.ImgHelper.Base64ToImg(String base64, String filePath) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Utils\ImgHelper.cs:行号 24
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 49
+
+[2016-11-18 14:56:43,610] Exception 
+error
+
+System.ArgumentException: 参数无效。
+   在 System.Drawing.Bitmap..ctor(String filename)
+   在 WebApplication1.Utils.ImgHelper.Base64ToImg(String base64, String filePath) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Utils\ImgHelper.cs:行号 31
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 49
+
+[2016-11-18 16:36:46,771] Exception 
+error
+
+SqlSugar.SqlSugarException: 错误信息          ： 【将截断字符串或二进制数据。
+语句已终止。】
+ORM生成的Sql ： 【insert into [Department] ([Name],[DeptType],[DeptSummary],[CoverImg],[ParentId],[InsertDate] ) values(@Name,@DeptType,@DeptSummary,@CoverImg,@ParentId,@InsertDate);select SCOPE_IDENTITY();】
+函数参数         ： 【{"Id":0,"Name":"测试","DeptType":0,"DeptSummary":"大","CoverImg":"/UploadFile/Image/DeptImg/a474909b66a040fc879f9b9dde45a6fb.jpg","ParentId":0,"InsertDate":"\/Date(1479458206466)\/"}】
+
+   在 SqlSugar.SqlSugarClient.Insert[T](T entity, Boolean isIdentity)
+   在 WxAppService.DbContext.SqlRepository`1.Add(T entity, Boolean isIdentity) 位置 E:\CodeSpace\WebApplication1\WxAppService\DbContext\SqlRepository.cs:行号 31
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 27
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 53
+
+[2016-11-18 16:42:23,664] Exception 
+error
+
+SqlSugar.SqlSugarException: 错误信息          ： 【将截断字符串或二进制数据。
+语句已终止。】
+ORM生成的Sql ： 【insert into [Department] ([Name],[DeptType],[DeptSummary],[CoverImg],[ParentId],[InsertDate] ) values(@Name,@DeptType,@DeptSummary,@CoverImg,@ParentId,@InsertDate);select SCOPE_IDENTITY();】
+函数参数         ： 【{"Id":0,"Name":"店面","DeptType":0,"DeptSummary":"大","CoverImg":"/UploadFile/Image/DeptImg/48297baa979e4f76ba93695c2e01dbf5.jpg","ParentId":0,"InsertDate":"\/Date(1479458543523)\/"}】
+
+   在 SqlSugar.SqlSugarClient.Insert[T](T entity, Boolean isIdentity)
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 27
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 53
+
+[2016-11-18 17:24:25,666] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 27
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46
+
+[2016-11-18 17:26:50,551] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WxAppService.DeptVoteAppService.AddDepartment(VoteDeptDto dto) 位置 E:\CodeSpace\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 27
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.AddDeptVote(VoteDeptDto model) 位置 E:\CodeSpace\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 46

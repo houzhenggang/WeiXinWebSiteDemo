@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "自定义菜单";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@*<button class="layui-btn" onclick="createMenu()" disabled="disabled">创建菜单</button>*@
+<form id="mainForm" class="layui-form layui-form-pane" style="width: 95%">
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">菜单内容</label>
+        <div class="layui-input-block">
+            <textarea placeholder="请输入内容" class="layui-textarea" name="menuStr" id="menuText" style="height: 500px;"></textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <button class="layui-btn" lay-submit="" lay-filter="createMenu">创建菜单</button>
+    </div>
+</form>
+
+@section scripts{
+    <script>
+        layui.use(['layer', 'form'], function () {
+            var layer = layui.layer
+            , form = layui.form();
+
+            form.on('submit(createMenu)', function (data) {
+
+                var formData = JSON.stringify(data.field);
+                console.log(formData);
+                Utils.ajaxPost('/admin/admin/CreateMenuDefault', data.field, 'json', function (res) {
+                    if (res.Ret) {
+                        layer.alert('成功啦');
+                    } else {
+                        layer.alert('创建失败');
+                    }
+                });
+                return false;
+            });
+            //layer.msg('Hello World');
+
+
+            loadMenuDemo();
+        });
+
+        function loadMenuDemo() {
+            var htmlObj = $.ajax({ url: "/Content/menuDemo.txt", async: false });//$.ajax() 返回其创建的 XMLHttpRequest 对象
+            $("#menuText").text(htmlObj.responseText);
+
+            //Utils.ajaxGet('/Content/menuDemo.txt', null, 'txt', function (res) {
+            //    console.log(res);
+            //});
+        }
+
+        function createMenu() {
+            Utils.ajaxPost("/Admin/Admin/CreateMenu", null, 'json', function(ret) {
+                if (ret.Ret) {
+                    layer.alert('成功啦');
+                } else {
+                    layer.alert('创建失败');
+                }
+            });
+        }
+
+      
+    </script>
+}
+

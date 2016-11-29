@@ -1,0 +1,194 @@
+
+[2016-11-21 11:32:11,541] Exception 
+error
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SqlSugar.SqlHelper.CheckConnect()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptList(Int32 pIndex, Int32 pSize, Int32 deptType) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 88
+   在 WebApplication1.Areas.Admin.Controllers.GroupManageController.GetGroupList(Int32 pIndex, Int32 pSize) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\GroupManageController.cs:行号 55
+
+[2016-11-21 14:13:51,918] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.GroupManageController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\GroupManageController.cs:行号 77
+ClientConnectionId:cc0ee22e-5b65-4bc2-9c31-c7512f7f732b
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:15:16,911] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:d8cb9b31-8115-40c3-9e22-ade156ca52bc
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:22:57,426] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:c5b4b87f-1251-42c1-914d-5781e6573d48
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:24:36,019] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:50a7543a-4af2-4244-bc8f-fada14ff40a8
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:38:38,651] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:6d03a76f-999e-41e5-beb5-2f8f5a516c68
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:40:42,895] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:f11e843f-a1e3-4795-9f45-7cab8a5b1915
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:46:55,183] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:f11e843f-a1e3-4795-9f45-7cab8a5b1915
+Error Number:207,State:1,Class:16
+
+[2016-11-21 14:50:47,140] Exception 
+error
+
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Name' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 SqlSugar.SqlHelper.GetReader(String sql, SqlParameter[] pars)
+   在 SqlSugar.QueryableExtensions.ToList[T](Queryable`1 queryable)
+   在 SqlSugar.QueryableExtensions.SingleOrDefault[T](Queryable`1 queryable)
+   在 WxAppService.DeptVoteAppService.GetDeptDataById(Int32 id) 位置 E:\Work\WebApplication1\WxAppService\DeptVoteAppService.cs:行号 97
+   在 WebApplication1.Areas.Admin.Controllers.VoteController.GetDeptById(Int32 id) 位置 E:\Work\WebApplication1\WebApplication1\Areas\Admin\Controllers\VoteController.cs:行号 114
+ClientConnectionId:87efb862-36b8-4992-8e65-e3dca17a82f8
+Error Number:207,State:1,Class:16

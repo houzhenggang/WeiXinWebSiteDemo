@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutNew.cshtml";
+    ViewBag.Title = "投票";
+
+    var openId = ViewBag.OpenId;
+}
+@model WxModel.DtoModel.VoteDetailDto
+<div id="audio_btn" class="video_exist off play_yinfu" style="display: block;">
+    <div id="yinfu" class="rotate"></div>
+    <audio loop src="~/content/toupiao/music/bg_2.mp3" id="media" autoplay preload="preload"></audio>
+</div>
+
+<div id="content_title1" class="fluid clearfix">
+    <div class="content_title">
+       @(Model.PartName)
+    </div>
+</div>
+
+<div class="clearfix"></div>
+@{
+    var detialList = Model.Detial;
+    foreach (var item in detialList)
+    {
+        <div id="content_list" class="gridContainer clearfix bounceInDown animated">
+            <div class="content_list_li">
+                <div class="content_list_li_left">
+                    <span><img src="@(item.CoverImg)"></span>
+                </div>
+                <div class="content_list_li_right">
+                    <div class="content_list_li_right_li"><strong>分店：</strong>@(item.DeptName)</div>
+                    <div class="content_list_li_right_li"><strong>票数：</strong><span class="voteCount">@(item.VoteCount)</span></div>
+                    <div class="content_list_li_right_li"><a style="color:#000; font-size:0.8em; font-weight:bold;" href="/WxVoteNew/DeptShow/@(item.DeptId)">门店风采展示>></a></div>
+                    <div class="content_list_li_right_li_a">
+                        <a class="btn to t1" onClick="wxVote(@(item.DeptId),this)">投我吧</a>
+                        <a class="btn to on" onClick="swal('您已为我投票，非常感谢！')" style="display: none;">已投票</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    }
+}
+
+
+<div class="clearfix" style="height: 2em;"></div>
+
+@section scripts{
+    <script type="text/javascript">
+        function wxVote(deptId,obj) {
+            console.log($(obj));
+            wxUtils.Ajax('/WxVoteNew/SubmitVote', { deptId: deptId, openId: '@openId' }, 'post', 'json', function (res) {
+                //提示
+                var title = '投票失败!';
+                var isPass = 'error';
+                if (res.Ret) {
+                    title = '投票成功!';
+                    isPass = 'success';
+          
+                    $(obj).hide();
+                    $(obj).siblings('a').show();
+                    if (res.VoteStatus == 1) {
+                        var countObj= $(obj).parent().parent().find('span[class="voteCount"]');
+                        var count = $(countObj).text();
+                        var newCount = parseInt(count) + 1;
+                        $(countObj).text(newCount);
+                    }
+                }
+
+                swal(title, res.Msg, isPass);
+               
+            });
+        }
+    </script>
+}

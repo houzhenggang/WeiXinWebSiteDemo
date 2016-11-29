@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link href="~/Scripts/layui-v1.0.3/layui/css/layui.css" rel="stylesheet"/>
+    <link href="~/Content/didiadmin/css/global.css" rel="stylesheet"/>
+    @RenderSection("css",required:false)
+    <title>@ViewBag.Title</title>
+</head>
+<body id="admin">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header header header-demo">
+        @{
+            Html.RenderPartial("_AdminHead");
+        }
+    </div>
+    <div class="layui-side layui-bg-black">
+        @{ Html.RenderAction("SideBarMenu", "Admin");}
+    </div>
+    <div class="layui-body">
+        <span>
+            <a href="#" ><i class="layui-icon" style="font-size: 30px;">&#xe638;</i></a>
+        </span>
+
+        <hr>
+        @RenderBody()
+    </div>
+    <div class="layui-footer footer footer-demo">
+        <div class="layui-main">
+            <p>
+                2016 &copy;
+             
+            </p>
+        </div>
+    </div>
+</div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/layui-v1.0.3/layui/layui.js"></script>
+    <script src="~/Scripts/base/common.js"></script>
+    @RenderSection("scripts", required: false)
+    @section scripts{
+        <script>
+            layui.use('element', function () {
+                var element = layui.element(); //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+            });
+            //layui.all(function() {
+               
+
+            //    // side 折叠
+            //    $('.layui-side .layui-nav-title').click(function() {
+            //        var stop_item = jquery(this).attr('nav-item-num');
+            //        var nav_item_icon = jquery(this).find('.layui-icon');
+            //        if (jquery(this).hasClass('item-hide')) {
+            //            jquery(this).nextAll('.layui-nav-item').slice(0, stop_item).slideToggle(100);
+            //            jquery(this).addClass('item-show').removeClass('item-hide');
+            //            nav_item_icon.css('transform', 'rotate(0deg)');
+            //        } else if (jquery(this).hasClass('item-show')) {
+            //            jquery(this).nextAll('.layui-nav-item').slice(0, stop_item).slideToggle(100);
+            //            jquery(this).addClass('item-hide').removeClass('item-show');
+            //            nav_item_icon.css('transform', 'rotate(-180deg)');
+            //        }
+            //    });
+            //});
+        </script>
+    }
+</body>
+</html>

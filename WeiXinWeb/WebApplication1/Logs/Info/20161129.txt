@@ -1,0 +1,66 @@
+
+[2016-11-29 09:21:36,826] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480382589</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-29 11:02:12,354] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480388621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-29 11:10:59,552] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480389148</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-29 11:11:16,545] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480389169</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-29 11:11:42,128] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480389194</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
+
+[2016-11-29 11:11:46,334] InfoLog 
+<xml><ToUserName><![CDATA[gh_93b135105b7e]]></ToUserName>
+<FromUserName><![CDATA[oNG-lwCq_y7wtCMSbF_4PtEvTfbQ]]></FromUserName>
+<CreateTime>1480389198</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://cs.didizufang.com.cn:9002/WxVoteNew/Index]]></EventKey>
+<MenuId>450879469</MenuId>
+</xml>
+
