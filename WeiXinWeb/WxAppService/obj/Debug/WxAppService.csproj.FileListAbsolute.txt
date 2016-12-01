@@ -25,3 +25,12 @@ E:\Work\WebApplication1\WxAppService\bin\Debug\SqlSugar.xml
 E:\Work\WebApplication1\WxAppService\obj\Debug\WxAppService.csprojResolveAssemblyReference.cache
 E:\Work\WebApplication1\WxAppService\obj\Debug\WxAppService.dll
 E:\Work\WebApplication1\WxAppService\obj\Debug\WxAppService.pdb
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\bin\Debug\WxAppService.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\bin\Debug\WxAppService.pdb
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\bin\Debug\SqlSugar.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\bin\Debug\WxModel.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\bin\Debug\WxModel.pdb
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\bin\Debug\SqlSugar.xml
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\obj\Debug\WxAppService.csprojResolveAssemblyReference.cache
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\obj\Debug\WxAppService.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxAppService\obj\Debug\WxAppService.pdb

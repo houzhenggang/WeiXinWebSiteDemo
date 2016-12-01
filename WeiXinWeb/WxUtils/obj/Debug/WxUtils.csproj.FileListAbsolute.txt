@@ -5,3 +5,9 @@ E:\Work\WebApplication1\WxUtils\bin\Debug\Newtonsoft.Json.xml
 E:\Work\WebApplication1\WxUtils\obj\Debug\WxUtils.dll
 E:\Work\WebApplication1\WxUtils\obj\Debug\WxUtils.pdb
 E:\Work\WebApplication1\WxUtils\obj\Debug\WxUtils.csprojResolveAssemblyReference.cache
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxUtils\bin\Debug\WxUtils.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxUtils\bin\Debug\WxUtils.pdb
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxUtils\bin\Debug\Newtonsoft.Json.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxUtils\bin\Debug\Newtonsoft.Json.xml
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxUtils\obj\Debug\WxUtils.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxUtils\obj\Debug\WxUtils.pdb

@@ -27,6 +27,7 @@ namespace WxModel.DtoModel
         public string ImgIds { get; set; }
         public string TeamImg { get; set; }
 
+        public DeptImg CoverImgDto { get; set; }
 
         public List<DeptImg> DeptImgs { get; set; } 
     }

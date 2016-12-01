@@ -21,7 +21,9 @@ namespace WxAppService
         /// <param name="dto"></param>
         public void AddDepartment(VoteDeptDto dto)
         {
+
             var model=new Department();
+            model.Id = dto.Id;
             model.DeptSummary = dto.DeptSummary;
             model.DeptType = dto.DeptType;
             model.Name = dto.DelptName;
@@ -34,7 +36,17 @@ namespace WxAppService
                 {
                     using (_dbClient)
                     {
-                        var id = _dbClient.Insert(model);
+                        var id = model.Id;
+                        if (model.Id > 0)
+                        {
+                            _dbClient.Update(model);
+                        }
+                        else
+                        {
+                           var retId = _dbClient.Insert(model);
+                            id = Convert.ToInt32(retId);
+                        }
+                       
 
                         if (!string.IsNullOrEmpty(dto.ImgIds))
                         {
@@ -67,6 +79,16 @@ namespace WxAppService
          
         }
 
+
+        public void InsertDeptData(VoteDeptDto dto)
+        {
+            
+        }
+
+        public void UpdateDeptData(VoteDeptDto dto)
+        {
+
+        }
         /// <summary>
         /// 删除数据
         /// </summary>
@@ -133,7 +155,7 @@ namespace WxAppService
         {
             var dto=new VoteDeptDto();
 
-            var query = _dbClient.Queryable<Department>().Where(s => s.Id == id)
+            dto = _dbClient.Queryable<Department>().Where(s => s.Id == id)
                 .Select<VoteDeptDto>(dept=>new VoteDeptDto()
                 {
                     Id = dept.Id,
@@ -141,14 +163,15 @@ namespace WxAppService
                     DelptName = dept.Name,
                     DeptType = dept.DeptType,
                     DeptSummary = dept.DeptSummary
-                }).ToList();
-            if (query.Any())
+                }).FirstOrDefault();
+
+            if (dto != null)
             {
                 var deptImg = _dbClient.Queryable<DeptImg>().Where(s => s.ParentId == id).ToList();
                 var deptImgfc = deptImg.Where(s => s.ImgType == 0).ToList();
-                var deptImgcover= deptImg.Where(s => s.ImgType ==1).ToList();
-                dto = query[0];
-                dto.DeptImgs = deptImg;
+                var deptImgcover= deptImg.Where(s => s.ImgType ==1).FirstOrDefault();
+                dto.CoverImgDto = deptImgcover;
+                dto.DeptImgs = deptImgfc;
             }
 
             return dto;

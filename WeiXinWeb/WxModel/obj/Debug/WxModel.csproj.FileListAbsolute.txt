@@ -10,3 +10,7 @@ E:\Work\WebApplication1\WxModel\bin\Debug\WxModel.dll
 E:\Work\WebApplication1\WxModel\bin\Debug\WxModel.pdb
 E:\Work\WebApplication1\WxModel\obj\Debug\WxModel.dll
 E:\Work\WebApplication1\WxModel\obj\Debug\WxModel.pdb
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxModel\bin\Debug\WxModel.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxModel\bin\Debug\WxModel.pdb
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxModel\obj\Debug\WxModel.dll
+E:\Work\WeiXinWebSiteDemo\WeiXinWeb\WxModel\obj\Debug\WxModel.pdb

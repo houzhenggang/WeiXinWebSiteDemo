@@ -19,26 +19,27 @@
         <div class="layui-field-box">
             <table class="site-table">
                 <thead>
-                    <tr>
-                        <th>名称</th>
+                <tr>
+                    <th>名称</th>
 
-                        <th>说明</th>
-                        <th>创建时间</th>
-                        <th>操作</th>
-                    </tr>
+                    <th>说明</th>
+                    <th>创建时间</th>
+                    <th>操作</th>
+                </tr>
                 </thead>
                 <tbody id="dataView"></tbody>
             </table>
 
         </div>
     </fieldset>
-    <div class="admin-table-page">
-        <div id="page" style="padding-left: 20px;">
+    <hr/>
+
+        <div id="pages">
         </div>
-    </div>
 </div>
 <div id="formDiv" style="display: none;">
     <form id="mainForm" class="layui-form layui-form-pane">
+        <input type="hidden" name="Id"/>
         <div class="layui-form-item">
             <label class="layui-form-label">所属事业部</label>
             <div class="layui-input-block" style="width: 300px;">
@@ -66,9 +67,6 @@
             <label class="layui-form-label">封面图片</label>
             <div class="layui-input-block">
                 <div class="layui-input-block">
-                    @*<img class="img-cover" id="imgTitle" src="~/Content/didiadmin/sc_pic.jpg" onclick="addTitleImg(this)" width="160" height="160" />*@
-                    @*<input type="file" name="imgFile" id="imgFile" onchange="uploadImgChange(this)" style="display: none">*@
-                    @*<input type="hidden" id="imgFileHidden" value=""/>*@
                     <input type="file" name="imgFile" class="layui-upload-file">
                 </div>
             </div>
@@ -85,9 +83,6 @@
             <label class="layui-form-label">部门风采</label>
             <div class="layui-input-block">
                 <div class="layui-input-block">
-                    @*<img class="img-cover" id="imgTitle" src="~/Content/didiadmin/sc_pic.jpg" onclick="addTitleImg(this)" width="160" height="160" />*@
-                    @*<input type="file" name="imgFile" id="imgFile" onchange="uploadImgChange(this)" style="display: none">*@
-                    @*<input type="hidden" id="imgFileHidden" value=""/>*@
                     <input type="file" name="teamImgFile" class="layui-upload-file">
                 </div>
             </div>
@@ -103,8 +98,9 @@
         <div class="layui-form-item">
             <label class="layui-form-label">部门描述</label>
             <div class="layui-input-block">
+                @*<textarea placeholder="请输入内容" class="layui-textarea" id="DeptSummary" name="DeptSummary" style="height: 200px;"></textarea>*@
                 <textarea class="layui-textarea" id="DeptSummary" name="DeptSummary" style="display: none"></textarea>
-                @*<input type="text" name="DeptSummary" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">*@
+              
             </div>
         </div>
         <div class="layui-form-item">
@@ -138,10 +134,10 @@
 @section scripts{
     <script>
         var imgIdArray = [], teamImgArray = [], form = null, laytpl=null,laypage=null;
-        layui.use(['layer', 'form', 'layedit', 'upload', 'laytpl', 'laypage'], function () {
+        layui.use(['layer', 'form', 'upload', 'laytpl', 'laypage'], function () {
             form = layui.form();
             var layer = layui.layer;
-            var layedit = layui.layedit;
+            //var layedit = layui.layedit;
             laytpl = layui.laytpl;
             laypage = layui.laypage;
             //加载列表数据
@@ -149,9 +145,9 @@
 
 
             //富文本编辑框
-            var summaryIndex = layedit.build('DeptSummary', {
-                tool: ['strong', 'italic', 'underline', 'del', '|', 'left', 'center', 'right']
-            });
+            //var summaryIndex = layedit.build('DeptSummary', {
+            //    tool: ['strong', 'italic', 'underline', 'del', '|', 'left', 'center', 'right']
+            //});
 
             //上传组件
             //var pId = $('#ParentId').val();
@@ -187,7 +183,7 @@
                  var formData = data.field;
 
                 //富文本编辑器的值
-                formData.DeptSummary = layedit.getContent(summaryIndex);
+               // formData.DeptSummary = layedit.getContent(summaryIndex);
                 //上传的图片id
                 var allImgIdS = imgIdArray.concat(teamImgArray);
                 formData.ImgIds = allImgIdS.join();
@@ -263,7 +259,7 @@
                     $('#ParentId').empty();
                     var optData = ret.Data;
                     if (optData.length > 0) {
-                        var optHtml = '';
+                        var optHtml = '<option value="0">请选择</option>';
                         for (var i = 0; i < optData.length; i++) {
 
                             optHtml += '<option value="' + optData[i].Id + '">';
@@ -293,7 +289,7 @@
         function loadListData(page) {
 
             page = page || 1;
-            Utils.ajaxGet('/Admin/GroupManage/GetGroupList', { pIndex: page, pSize: 15, deptType: 2 }, 'json', function (ret) {
+            Utils.ajaxGet('/Admin/GroupManage/GetGroupList', { pIndex: page, pSize: 10, deptType: 2 }, 'json', function (ret) {
                 console.log(ret);
                 if (ret.Ret) {
                     laytpl(gettpl).render(ret.rows, function (html) {
@@ -301,7 +297,7 @@
                     });
 
                     laypage({
-                        cont: $('#page'), //容器。值支持id名、原生dom对象，jquery对象,
+                        cont: $('#pages'), //容器。值支持id名、原生dom对象，jquery对象,
                         pages: ret.total, //总页数
                         curr: ret.page,//当前页码
                         skip: true, //是否开启跳页
@@ -318,6 +314,51 @@
 
         }
 
+        //编辑数据
+        function editData(id) {
+            console.log(id);
+            Utils.ajaxGet('/admin/DeptVote/GetDeptById', { id: id }, 'json', function (ret) {
+                if (ret.Ret) {
+                    switchDiv(true);
+                    $('#imgDiv').empty();
+                    $('#teamImgDiv').empty();
+                    Utils.loadFormData($('#mainForm'), ret.Data);
+                    
+                 
+                    var imgData = ret.Data.DeptImgs;
+                    var imgCoverData = ret.Data.CoverImgDto;
+
+                    imgIdArray.push(imgCoverData.Id);
+                    var imgCoverHtml = '';
+
+                    imgCoverHtml += '<li id="imgTitle' + imgCoverData.Id + '"' + 'style="display:block;float:left;"><img class="img-cover"';
+                    imgCoverHtml += ' src="' + imgCoverData.ImgUrl + '" width="160" height="160"/><br/>';
+                    imgCoverHtml += '<a href="javascript:void(0);" onclick="deleteImg(' + imgCoverData.Id + ',' + "'" + imgCoverData.ImgUrl + "'" + ')" class="layui-btn">删除</a></li>';
+
+                    $('#imgDiv').append(imgCoverHtml);
+
+                    if (imgData.length > 0) {
+                        var imgHtml = '';
+                        for (var i = 0; i < imgData.length; i++) {
+
+                            var imgId = imgData[i].Id;
+                            var imgUrl = imgData[i].ImgUrl;
+                            teamImgArray.push(imgId);
+
+                            imgHtml += '<li id="imgTitle' + imgId + '"' + 'style="display:block;float:left;"><img class="img-cover"';
+                            imgHtml += ' src="' + imgUrl + '" width="160" height="160"/><br/>';
+                            imgHtml += '<a href="javascript:void(0);" onclick="deleteImg(' + imgId + ',' + "'" + imgUrl + "'" + ')" class="layui-btn">删除</a></li>';
+                        }
+
+
+                        $('#teamImgDiv').append(imgHtml);
+                    }
+                }
+
+
+            });
+
+        }
 
         //删除数据
         function delData(id) {
@@ -341,11 +382,7 @@
         }
         //返回列表
         function backList() {
-            Utils.resetForm($('#mainForm'));
-            imgIdArray.length = 0;
-            teamImgArray.length = 0;
-            $('#imgDiv').html('');
-            $('#teamImgDiv').empty();
+         
             switchDiv(false);
             loadListData();
         }
@@ -354,6 +391,12 @@
             if (num) {
                 $('#listDiv').hide();
                 $('#formDiv').show();
+
+                Utils.resetForm($('#mainForm'));
+                imgIdArray.length = 0;
+                teamImgArray.length = 0;
+                $('#imgDiv').html('');
+                $('#teamImgDiv').empty();
             } else {
                 $('#formDiv').hide();
                 $('#listDiv').show();
